@@ -46,7 +46,7 @@ Name: genai-test-automation
 
 Add Python .gitignore
 
-install git bash if not installed
+Install git bash if not installed
 
 Do the ssh setup through https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
