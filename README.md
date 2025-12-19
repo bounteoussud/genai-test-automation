@@ -46,8 +46,12 @@ Name: genai-test-automation
 
 Add Python .gitignore
 
-Create repo
-In git bash (install git bash if not installed and do the ssh setup through https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) Clone locally:
+install git bash if not installed
+
+Do the ssh setup through https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+
+Create repo in git bash  Clone locally:
 
 git clone https://github.com/bounteoussud/genai-test-automation.git
 
