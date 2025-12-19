@@ -67,3 +67,26 @@ git clone https://github.com/bounteoussud/genai-test-automation.git
 cd genai-test-automation
 
 
+**PHASE 3 — Poetry Setup**
+5️⃣ Go to cmd and Install Poetry using below command (make sure Python desired version should be installed)
+
+pip install poetry
+
+Verify:
+
+poetry --version
+
+6️⃣ Initialize Project
+
+poetry init
+
+
+Python version → ^3.11
+
+Accept defaults
+
+Install environment:
+
+poetry install
+
+
