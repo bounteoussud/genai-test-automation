@@ -58,6 +58,8 @@ create ssh key using following command in git bash (if key not generated yet)
  
  cat ~/.ssh/id_ed25519.pub > /dev/clipboard
 
+ Now Go to Github portal > Your account > Settings > SSH and GPG Keys > New SSH Key > Provide Title > Paste the Key > Click Add SSH Key
+
 Create repo in git bash  Clone locally:
 
 git clone https://github.com/bounteoussud/genai-test-automation.git
