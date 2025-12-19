@@ -33,5 +33,5 @@ Add Python .gitignore
 Create repo
 
 In git bash Clone locally:
-git clone https://github.com/<your-username>/genai-test-automation.git
+git clone https://github.com/bounteoussud/genai-test-automation.git
 cd genai-test-automation
