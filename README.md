@@ -50,9 +50,18 @@ Install git bash if not installed
 
 Do the ssh setup through https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+create ssh key using following command in git bash (if key not generated yet)
+
+ ssh-keygen -t ed25519 -C "sudershan.singh@bounteous.com"
+
+ In git bash go to the id_ed25519.pub file location and copy the key using following command:
+ 
+ cat ~/.ssh/id_ed25519.pub > /dev/clipboard
 
 Create repo in git bash  Clone locally:
 
 git clone https://github.com/bounteoussud/genai-test-automation.git
 
 cd genai-test-automation
+
+
