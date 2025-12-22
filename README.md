@@ -331,8 +331,12 @@ jobs:
 ✅ This Is What Team Members Must Do (ONLY)
 
 git clone <repo_url>
+
 cd genai-test-automation
+
 pip install poetry
+
 poetry install
+
 poetry run playwright install
 
