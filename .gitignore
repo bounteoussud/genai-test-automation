@@ -1,0 +1,32 @@
+# ========================
+# Python / Poetry
+# ========================
+.venv/
+__pycache__/
+*.pyc
+
+# ========================
+# Environment variables
+# ========================
+.env
+.env.*
+
+# ========================
+# Allure reports
+# ========================
+reports/allure-results/
+reports/allure-report/
+
+# ========================
+# Playwright
+# ========================
+playwright-report/
+test-results/
+
+# ========================
+# OS / IDE
+# ========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

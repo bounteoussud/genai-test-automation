@@ -1,0 +1,27 @@
+[project]
+name = "genai-test-automation-qathan"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pytest (>=9.0.2,<10.0.0)",
+    "playwright (>=1.57.0,<2.0.0)",
+    "httpx (>=0.28.1,<0.29.0)",
+    "allure-pytest (>=2.15.2,<3.0.0)",
+    "crewai (>=1.7.2,<2.0.0)",
+    "google-generativeai (>=0.8.6,<0.9.0)"
+]
+
+[tool.poetry]
+packages = [{include = "genai_test_automation_qathan", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
