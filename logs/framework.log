@@ -1,0 +1,2620 @@
+2025-12-25 16:54:36,396 | RequirementAgent | INFO | Generating manual test cases
+2025-12-25 16:54:36,396 | OllamaClient | INFO | Sending prompt to Ollama
+2025-12-25 17:02:45,725 | RequirementAgent | INFO | Generating manual test cases
+2025-12-25 17:02:45,725 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:04:07,894 | RequirementAgent | INFO | Generating manual test cases
+2025-12-25 17:04:07,894 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:04:07,918 | OllamaClient | INFO | Ollama raw response keys: ['error']
+2025-12-25 17:04:07,918 | OllamaClient | ERROR | Ollama error: model 'mistral' not found
+2025-12-25 17:04:12,922 | OllamaClient | INFO | Ollama call attempt 2
+2025-12-25 17:04:12,951 | OllamaClient | INFO | Ollama raw response keys: ['error']
+2025-12-25 17:04:12,951 | OllamaClient | ERROR | Ollama error: model 'mistral' not found
+2025-12-25 17:04:17,951 | OllamaClient | INFO | Ollama call attempt 3
+2025-12-25 17:04:17,973 | OllamaClient | INFO | Ollama raw response keys: ['error']
+2025-12-25 17:04:17,975 | OllamaClient | ERROR | Ollama error: model 'mistral' not found
+2025-12-25 17:06:06,906 | RequirementAgent | INFO | Generating manual test cases
+2025-12-25 17:06:06,906 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:08:15,219 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 17:08:15,312 | ExcelWriter | INFO | Excel file created successfully
+2025-12-25 17:08:15,312 | RequirementAgent | INFO | Manual test cases stored in Excel
+2025-12-25 17:08:15,312 | AutomationAgent | INFO | Reading manual test cases from Excel
+2025-12-25 17:08:15,364 | AutomationAgent | INFO | Generating automation for nan
+2025-12-25 17:08:15,365 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:08:15,386 | OllamaClient | INFO | Ollama raw response keys: ['error']
+2025-12-25 17:08:15,387 | OllamaClient | ERROR | Ollama error: model 'mistral' not found
+2025-12-25 17:08:20,388 | OllamaClient | INFO | Ollama call attempt 2
+2025-12-25 17:08:20,425 | OllamaClient | INFO | Ollama raw response keys: ['error']
+2025-12-25 17:08:20,426 | OllamaClient | ERROR | Ollama error: model 'mistral' not found
+2025-12-25 17:08:25,429 | OllamaClient | INFO | Ollama call attempt 3
+2025-12-25 17:08:25,459 | OllamaClient | INFO | Ollama raw response keys: ['error']
+2025-12-25 17:08:25,460 | OllamaClient | ERROR | Ollama error: model 'mistral' not found
+2025-12-25 17:12:36,056 | RequirementAgent | INFO | Generating manual test cases
+2025-12-25 17:12:36,056 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:14:41,743 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 17:14:41,788 | ExcelWriter | INFO | Excel file created successfully
+2025-12-25 17:14:41,789 | RequirementAgent | INFO | Manual test cases stored in Excel
+2025-12-25 17:14:41,849 | ExecutionAgent | INFO | Starting test execution
+2025-12-25 17:14:44,077 | ExecutionAgent | INFO | Test execution completed
+2025-12-25 17:21:33,604 | RequirementAgent | INFO | Generating manual test cases
+2025-12-25 17:21:33,604 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:22:20,057 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 17:22:20,057 | ExcelWriter | INFO | Raw LLM output below:
+2025-12-25 17:22:20,059 | ExcelWriter | INFO | TC_01|Login with Valid Credentials|Enter username "user1", enter password "password123", click Login button|Successful login with user "user1" displayed on the dashboard
+
+TC_02|Invalid Username|Enter username "wronguser", enter password "password123", click Login button|Error message "Username or Password is incorrect" displayed
+2025-12-25 17:22:20,094 | ExcelWriter | INFO | Excel file created successfully with 2 test cases
+2025-12-25 17:22:20,095 | RequirementAgent | INFO | Manual test cases stored in Excel
+2025-12-25 17:22:20,137 | AutomationAgent | INFO | Generating automation for TC_01
+2025-12-25 17:22:20,138 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:24:31,112 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 17:24:31,119 | AutomationAgent | INFO | Generating automation for TC_02
+2025-12-25 17:24:31,119 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:26:26,047 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 17:26:26,055 | ExecutionAgent | INFO | Starting test execution
+2025-12-25 17:26:27,950 | ExecutionAgent | INFO | Test execution completed
+2025-12-25 17:36:10,249 | RequirementAgent | INFO | Generating manual test cases
+2025-12-25 17:36:10,249 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:40:27,789 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 17:40:27,793 | ExcelWriter | INFO | Raw LLM output below:
+2025-12-25 17:40:27,794 | ExcelWriter | INFO | Here are the comprehensive manual test cases for the web application:
+
+**Pre-login Scenarios**
+
+TC_01|Blank URL|Open browser, enter https://rahulshettyacademy.com/loginpagePractise/ (no trailing slash)|Page not found error|
+TC_02|Invalid URL|Enter https://invalidurl.com (random invalid URL)|Page not found error|
+TC_03|No URL|Open browser without entering any URL|Default browser page or error message|
+
+**UI Validation**
+
+TC_04|Login Page UI|Verify login page title, header, and footer elements are present|Correct UI elements displayed|
+TC_05|Form Fields|Verify username and password fields are present with correct labels|Fields and labels match expected|
+TC_06|Submit Button|Verify submit button is present and enabled|Button is visible and clickable|
+
+**Field Validations**
+
+TC_07|Username Field|Enter invalid username (e.g., special characters)|Error message displayed for invalid username|
+TC_08|Password Field|Enter password with less than 8 characters|Error message displayed for weak password|
+TC_09|Username and Password|Enter valid username and password, then clear fields|Fields cleared successfully|
+
+**Positive Login Flow**
+
+TC_10|Valid Credentials|Enter valid username and password, submit form|Successful login, redirect to dashboard or expected page|
+TC_11|Remember Me|Enable "Remember Me" option, log in, then close browser|Next time, auto-login with same credentials|
+
+**Negative Login Scenarios**
+
+TC_12|Invalid Username|Enter invalid username, valid password, and submit|Error message displayed for invalid username|
+TC_13|Invalid Password|Enter valid username, invalid password, and submit|Error message displayed for invalid password|
+TC_14|Blank Fields|Leave both fields blank and submit|Error messages displayed for missing credentials|
+
+**Error Messages**
+
+TC_15|Username Error|Enter invalid username and submit|Error message displayed for invalid username|
+TC_16|Password Error|Enter valid username, invalid password, and submit|Error message displayed for invalid password|
+TC_17|Blank Field Error|Leave both fields blank and submit|Error messages displayed for missing credentials|
+
+**Navigation After Login**
+
+TC_18|Dashboard Access|Log in successfully, verify dashboard or expected page is accessible|Correct page displayed after login|
+TC_19|Menu Navigation|Verify menu options are available and functional after login|Menu items work as expected|
+
+**Access Control (Unauthorized vs Authorized Access)**
+
+TC_20|Unauthorized Access|Try to access restricted area without logging in|Access denied error message or redirect to login page|
+TC_21|Authorized Access|Log in successfully, verify authorized access to restricted area|Correct page displayed with authorized access|
+
+**Logout Behavior**
+
+TC_22|Successful Logout|Log out successfully, verify logout confirmation message|Confirmation message displayed after logout|
+TC_23|Failed Logout|Try to log out while not logged in|Error message displayed for failed logout attempt|
+
+Please note that these test cases are just a starting point and may need to be modified or expanded based on the actual implementation of the web application.
+2025-12-25 17:43:43,822 | RequirementAgent | INFO | Generating manual test cases
+2025-12-25 17:43:43,822 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:47:40,033 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 17:47:40,036 | ExcelWriter | INFO | Old Excel file removed to avoid permission issues
+2025-12-25 17:47:40,071 | ExcelWriter | INFO | Excel file created successfully with 24 test cases
+2025-12-25 17:47:40,072 | RequirementAgent | INFO | Manual test cases stored in Excel
+2025-12-25 17:47:40,106 | AutomationAgent | INFO | Generating automation for TC_01
+2025-12-25 17:47:40,106 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:49:58,042 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 17:49:58,055 | AutomationAgent | INFO | Generating automation for TC_02
+2025-12-25 17:49:58,056 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:51:30,817 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 17:51:30,820 | AutomationAgent | INFO | Generating automation for TC_03
+2025-12-25 17:51:30,821 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:53:21,759 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 17:53:21,763 | AutomationAgent | INFO | Generating automation for TC_04
+2025-12-25 17:53:21,764 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:55:28,793 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 17:55:28,797 | AutomationAgent | INFO | Generating automation for TC_05
+2025-12-25 17:55:28,797 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:57:44,552 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 17:57:44,554 | AutomationAgent | INFO | Generating automation for TC_06
+2025-12-25 17:57:44,554 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 17:59:28,870 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 17:59:28,872 | AutomationAgent | INFO | Generating automation for TC_07
+2025-12-25 17:59:28,875 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:01:37,034 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:01:37,040 | AutomationAgent | INFO | Generating automation for TC_08
+2025-12-25 18:01:37,042 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:03:12,899 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:03:12,901 | AutomationAgent | INFO | Generating automation for TC_09
+2025-12-25 18:03:12,901 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:04:54,005 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:04:54,007 | AutomationAgent | INFO | Generating automation for TC_10
+2025-12-25 18:04:54,007 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:06:38,401 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:06:38,403 | AutomationAgent | INFO | Generating automation for TC_11
+2025-12-25 18:06:38,403 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:08:19,549 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:08:19,551 | AutomationAgent | INFO | Generating automation for TC_12
+2025-12-25 18:08:19,551 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:10:27,112 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:10:27,113 | AutomationAgent | INFO | Generating automation for TC_13
+2025-12-25 18:10:27,113 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:12:44,737 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:12:44,739 | AutomationAgent | INFO | Generating automation for TC_14
+2025-12-25 18:12:44,739 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:14:47,462 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:14:47,464 | AutomationAgent | INFO | Generating automation for TC_15
+2025-12-25 18:14:47,464 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:16:25,549 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:16:25,551 | AutomationAgent | INFO | Generating automation for TC_16
+2025-12-25 18:16:25,551 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:18:37,841 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:18:37,844 | AutomationAgent | INFO | Generating automation for TC_17
+2025-12-25 18:18:37,844 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:20:20,031 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:20:20,032 | AutomationAgent | INFO | Generating automation for TC_18
+2025-12-25 18:20:20,032 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:22:05,521 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:22:05,523 | AutomationAgent | INFO | Generating automation for TC_19
+2025-12-25 18:22:05,523 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:24:20,511 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:24:20,513 | AutomationAgent | INFO | Generating automation for TC_20
+2025-12-25 18:24:20,513 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:26:37,395 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:26:37,396 | AutomationAgent | INFO | Generating automation for TC_21
+2025-12-25 18:26:37,399 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:28:33,519 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:28:33,522 | AutomationAgent | INFO | Generating automation for TC_22
+2025-12-25 18:28:33,522 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:30:40,974 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:30:40,978 | AutomationAgent | INFO | Generating automation for TC_23
+2025-12-25 18:30:40,978 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:33:07,214 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:33:07,216 | AutomationAgent | INFO | Generating automation for TC_24
+2025-12-25 18:33:07,216 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-25 18:34:57,589 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-25 18:34:57,599 | ExecutionAgent | INFO | Starting test execution
+2025-12-25 18:35:03,584 | ExecutionAgent | INFO | Test execution completed
+2025-12-26 09:38:09,666 | RequirementAgent | INFO | Generating manual test cases
+2025-12-26 09:38:09,666 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 09:43:09,705 | OllamaClient | WARNING | Ollama timeout, retrying...
+2025-12-26 09:43:14,707 | OllamaClient | INFO | Ollama call attempt 2
+2025-12-26 09:48:01,079 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 09:48:01,083 | ExcelWriter | ERROR | Cannot remove existing Excel file. Close it if open.
+2025-12-26 09:48:01,086 | RequirementAgent | INFO | Manual test cases stored in Excel
+2025-12-26 09:48:01,284 | AutomationAgent | INFO | Generating automation for TC_01
+2025-12-26 09:48:01,284 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 09:49:29,970 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 09:49:29,991 | AutomationAgent | INFO | Automation script created: testcases/automation/test_TC_01.py
+2025-12-26 09:49:29,992 | AutomationAgent | INFO | Generating automation for TC_02
+2025-12-26 09:49:29,996 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 09:50:02,222 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 09:50:02,230 | AutomationAgent | INFO | Automation script created: testcases/automation/test_TC_02.py
+2025-12-26 09:50:02,230 | AutomationAgent | INFO | Generating automation for TC_03
+2025-12-26 09:50:02,230 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 09:50:42,957 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 09:50:42,960 | AutomationAgent | INFO | Automation script created: testcases/automation/test_TC_03.py
+2025-12-26 09:50:42,960 | AutomationAgent | INFO | Generating automation for TC_04
+2025-12-26 09:50:42,960 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 09:51:39,061 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 09:51:39,066 | AutomationAgent | INFO | Automation script created: testcases/automation/test_TC_04.py
+2025-12-26 09:51:39,072 | AutomationAgent | INFO | Generating automation for TC_05
+2025-12-26 09:51:39,072 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 09:52:22,212 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 09:52:22,215 | AutomationAgent | INFO | Automation script created: testcases/automation/test_TC_05.py
+2025-12-26 09:52:22,217 | AutomationAgent | INFO | Generating automation for TC_06
+2025-12-26 09:52:22,217 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 09:53:05,588 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 09:53:05,596 | AutomationAgent | INFO | Automation script created: testcases/automation/test_TC_06.py
+2025-12-26 09:53:05,599 | AutomationAgent | INFO | Generating automation for TC_07
+2025-12-26 09:53:05,599 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 09:54:15,751 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 09:54:15,755 | AutomationAgent | INFO | Automation script created: testcases/automation/test_TC_07.py
+2025-12-26 09:54:15,755 | AutomationAgent | INFO | Generating automation for TC_08
+2025-12-26 09:54:15,755 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 09:55:01,526 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 09:55:01,532 | AutomationAgent | INFO | Automation script created: testcases/automation/test_TC_08.py
+2025-12-26 09:55:01,532 | AutomationAgent | INFO | Generating automation for TC_09
+2025-12-26 09:55:01,532 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 09:55:50,931 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 09:55:50,933 | AutomationAgent | INFO | Automation script created: testcases/automation/test_TC_09.py
+2025-12-26 09:55:50,933 | AutomationAgent | INFO | Generating automation for TC_10
+2025-12-26 09:55:50,933 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 10:00:50,095 | RequirementAgent | INFO | Generating manual test cases
+2025-12-26 10:12:45,203 | Main | INFO | Manual test case Excel not found. Generating new manual test cases.
+2025-12-26 10:12:45,203 | RequirementAgent | INFO | Generating manual test cases
+2025-12-26 10:13:16,714 | Main | INFO | Manual test case Excel not found. Generating new manual test cases.
+2025-12-26 10:13:16,714 | RequirementAgent | INFO | Generating manual test cases
+2025-12-26 10:18:09,324 | Main | INFO | Manual test case Excel not found. Generating new manual test cases.
+2025-12-26 10:18:09,324 | RequirementAgent | INFO | Generating manual test cases
+2025-12-26 10:18:09,324 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 10:21:22,238 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 10:30:12,789 | Main | INFO | Manual test case Excel not found. Generating new manual test cases.
+2025-12-26 10:30:12,789 | RequirementAgent | INFO | Generating manual test cases
+2025-12-26 10:30:12,789 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 10:33:59,708 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 10:33:59,784 | RequirementAgent | INFO | Manual test cases generated and saved to Excel
+2025-12-26 10:37:44,403 | Main | INFO | Manual test cases are up-to-date.
+2025-12-26 10:38:04,715 | Main | INFO | Manual test cases are up-to-date.
+2025-12-26 11:14:38,001 | Main | INFO | Manual test cases are up-to-date.
+2025-12-26 11:46:52,078 | Main | INFO | Manual test cases are up-to-date.
+2025-12-26 11:46:52,078 | AutomationAgent | INFO | Starting automation script generation
+2025-12-26 11:50:49,077 | Main | INFO | Manual test cases are up-to-date.
+2025-12-26 11:50:49,077 | AutomationAgent | INFO | Starting automation script generation
+2025-12-26 11:54:20,318 | Main | INFO | Manual test cases are up-to-date.
+2025-12-26 11:54:20,318 | AutomationAgent | INFO | Starting automation script generation
+2025-12-26 12:05:51,620 | Main | INFO | Requirement changed or invalid. Regenerating manual test cases.
+2025-12-26 12:05:51,622 | RequirementAgent | INFO | Generating manual test cases
+2025-12-26 12:05:51,622 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 12:09:39,375 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 12:09:39,463 | RequirementAgent | INFO | Manual test cases generated and saved to Excel
+2025-12-26 12:09:39,463 | AutomationAgent | INFO | Starting automation script generation
+2025-12-26 12:14:37,256 | Main | INFO | Requirement changed or invalid. Regenerating manual test cases.
+2025-12-26 12:14:37,256 | RequirementAgent | INFO | Generating manual test cases
+2025-12-26 12:14:37,256 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 12:19:23,173 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 12:19:23,173 | RequirementAgent | INFO | Raw LLM Output:
+Here are the comprehensive manual test cases for the given application:
+
+1 | Pre-login scenario - Empty username and password fields | 1. Open browser and navigate to https://rahulshettyacademy.com/loginpagePractise/ | 2. Verify that both username and password fields are empty | Expected: Both fields should be empty with no default values.
+2 | Pre-login scenario - Username only filled | 1. Fill in the username field | 2. Leave password field blank | Expected: Password field should still be empty, and username field should have the entered value.
+3 | Pre-login scenario - Password only filled | 1. Fill in the password field | 2. Leave username field blank | Expected: Username field should still be empty, and password field should have the entered value.
+4 | Pre-login scenario - Both fields filled with valid credentials | 1. Fill in both username and password fields with valid credentials | 2. Verify that both fields are filled | Expected: Both fields should be filled with the entered values.
+5 | Post-login scenario - Successful login | 1. Enter valid username and password | 2. Click on the login button | Expected: User should be logged in successfully, and redirected to a new page.
+6 | Post-login scenario - Invalid username or password | 1. Enter invalid username or password | 2. Click on the login button | Expected: Error message should appear indicating incorrect credentials.
+7 | Post-login scenario - Username and password fields validation | 1. Leave both fields blank | 2. Try to submit the form | Expected: Both fields should be highlighted as required, and an error message should appear.
+8 | Positive login flow - Valid username and password | 1. Enter valid username and password | 2. Click on the login button | Expected: User should be logged in successfully, and redirected to a new page.
+9 | Negative login scenario - Empty username field | 1. Leave username field blank | 2. Fill in the password field with valid credentials | 3. Try to submit the form | Expected: Username field should be highlighted as required, and an error message should appear.
+10 | Negative login scenario - Empty password field | 1. Leave password field blank | 2. Fill in the username field with valid credentials | 3. Try to submit the form | Expected: Password field should be highlighted as required, and an error message should appear.
+11 | Error messages - Incorrect username or password | 1. Enter invalid username or password | 2. Click on the login button | Expected: Error message should appear indicating incorrect credentials.
+12 | Navigation after login - Redirect to new page | 1. Log in with valid credentials | 2. Verify that user is redirected to a new page | Expected: User should be logged in successfully, and redirected to a new page.
+13 | Logout behavior - Successful logout | 1. Log in with valid credentials | 2. Click on the logout button | Expected: User should be logged out successfully, and redirected back to the login page.
+14 | Logout behavior - Cancel logout | 1. Log in with valid credentials | 2. Click on the logout button | 3. Cancel the logout process | Expected: User should not be logged out, and the logout process should be cancelled.
+
+Please note that these test cases are comprehensive but may require additional testing based on specific requirements or edge cases.
+2025-12-26 12:19:23,214 | RequirementAgent | INFO | Manual test cases generated and saved to Excel
+2025-12-26 12:19:23,214 | AutomationAgent | INFO | Starting automation script generation
+2025-12-26 12:27:52,230 | Main | INFO | Manual test case Excel not found. Generating new manual test cases.
+2025-12-26 12:27:52,230 | RequirementAgent | INFO | Generating manual test cases
+2025-12-26 12:27:52,230 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 12:32:52,285 | OllamaClient | WARNING | Ollama timeout, retrying...
+2025-12-26 12:32:57,289 | OllamaClient | INFO | Ollama call attempt 2
+2025-12-26 12:35:45,863 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 12:35:45,868 | RequirementAgent | INFO | Raw LLM Output:
+Here are the comprehensive manual test cases for the given application:
+
+1. | Pre-login scenario - Username field validation | 1. Enter invalid username format (e.g., abc123) in the username field | The system should display an error message indicating "Invalid username" |
+2. | Pre-login scenario - Password field validation | 1. Enter password with less than 8 characters | The system should display an error message indicating "Password must be at least 8 characters long" |
+3. | Pre-login scenario - Username and password field validation | 1. Leave both username and password fields blank | The system should display error messages for both fields: "Username is required" and "Password is required" |
+4. | Positive login flow | 1. Enter valid username (e.g., rahulshetty) in the username field | 2. Enter valid password (e.g., learningisfun) in the password field | The system should display a success message indicating "Login successful" and redirect to the dashboard |
+5. | Negative login scenario - Invalid username | 1. Enter invalid username format (e.g., abc123) in the username field | 2. Enter valid password (e.g., learningisfun) in the password field | The system should display an error message indicating "Invalid username" |
+6. | Negative login scenario - Invalid password | 1. Enter valid username (e.g., rahulshetty) in the username field | 2. Enter invalid password with less than 8 characters | The system should display an error message indicating "Password must be at least 8 characters long" |
+7. | Error messages for login fields | 1. Leave both username and password fields blank | The system should display error messages for both fields: "Username is required" and "Password is required" |
+8. | Navigation after login - Dashboard access | 1. Login with valid credentials (e.g., rahulshetty, learningisfun) | The system should redirect to the dashboard page |
+9. | Logout behavior | 1. Login with valid credentials (e.g., rahulshetty, learningisfun) | 2. Click on the logout button | The system should log out successfully and display a message indicating "Logout successful" |
+
+Let me know if you need any further assistance!
+2025-12-26 12:35:45,934 | RequirementAgent | INFO | Manual test cases generated and saved to Excel
+2025-12-26 12:35:45,936 | AutomationAgent | INFO | Starting automation script generation
+2025-12-26 12:39:22,995 | Main | INFO | Manual test case Excel not found. Generating new manual test cases.
+2025-12-26 12:39:22,995 | RequirementAgent | INFO | Generating manual test cases
+2025-12-26 12:39:22,996 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 12:42:04,236 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 12:42:04,236 | RequirementAgent | INFO | Raw LLM Output:
+Here are the comprehensive manual test cases for the given application:
+
+1. | Pre-login scenario - Username field validation | 1. Enter invalid username in the username field | The system should display an error message "Invalid username or password" |
+2. | Pre-login scenario - Password field validation | 1. Enter invalid password in the password field | The system should display an error message "Invalid username or password" |
+3. | Pre-login scenario - Empty username and password fields | 1. Leave both username and password fields empty | The system should display an error message "Please enter your credentials" |
+4. | Positive login flow - Valid credentials | 1. Enter valid username and password in the respective fields | The system should redirect to the dashboard page |
+5. | Negative login scenario - Invalid username | 1. Enter invalid username and valid password in the respective fields | The system should display an error message "Invalid username or password" |
+6. | Negative login scenario - Invalid password | 1. Enter valid username and invalid password in the respective fields | The system should display an error message "Invalid username or password" |
+7. | Error message validation - Username already exists | 1. Try to register with an existing username | The system should display an error message "Username already exists" |
+8. | Error message validation - Password mismatch | 1. Enter different passwords in the confirm password field during registration | The system should display an error message "Passwords do not match" |
+9. | Navigation after login - Dashboard page | 1. Log in with valid credentials | The system should redirect to the dashboard page |
+10. | Logout behavior - Successful logout | 1. Log out from the application | The system should log out successfully and redirect to the login page |
+11. | UI validation - Login form fields | 1. Check the username and password fields for proper formatting and labels | The system should display the fields with proper formatting and labels |
+12. | Error message validation - Invalid email format | 1. Enter an invalid email address during registration | The system should display an error message "Invalid email format" |
+
+Note: These test cases are designed to cover various scenarios, including pre-login, post-login, and logout behavior. Each test case is written in the specified format with a unique TC_ID, scenario description, steps, and expected result.
+2025-12-26 12:42:04,269 | RequirementAgent | INFO | Manual test cases generated and saved to Excel
+2025-12-26 12:42:04,269 | AutomationAgent | INFO | Starting automation script generation
+2025-12-26 12:45:01,825 | Main | INFO | Manual test case Excel not found. Generating new manual test cases.
+2025-12-26 12:45:01,825 | RequirementAgent | INFO | Generating manual test cases
+2025-12-26 12:45:01,825 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 12:50:01,846 | OllamaClient | WARNING | Ollama timeout, retrying...
+2025-12-26 12:50:06,848 | OllamaClient | INFO | Ollama call attempt 2
+2025-12-26 12:52:54,565 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 12:52:54,566 | RequirementAgent | INFO | Raw LLM Output:
+Here are the comprehensive manual test cases for the given application:
+
+1 | Pre-login scenario - User is not logged in | 1. Open browser and navigate to https://rahulshettyacademy.com/loginpagePractise/ | The login page should be displayed with username and password fields |
+2 | Pre-login scenario - Username field validation | 1. Enter invalid username (e.g., abc) in the username field | Error message "Invalid username" should be displayed |
+3 | Pre-login scenario - Password field validation | 1. Enter invalid password (e.g., 123) in the password field | Error message "Invalid password" should be displayed |
+4 | Positive login flow | 1. Enter valid username and password, click on login button | User should be logged in successfully and redirected to the dashboard page |
+5 | Negative login scenario - Invalid username | 1. Enter invalid username (e.g., abc) and valid password, click on login button | Error message "Invalid username" should be displayed |
+6 | Negative login scenario - Invalid password | 1. Enter valid username and invalid password (e.g., 123), click on login button | Error message "Invalid password" should be displayed |
+7 | Negative login scenario - Empty username | 1. Leave username field empty, enter valid password, click on login button | Error message "Please enter your username" should be displayed |
+8 | Negative login scenario - Empty password | 1. Enter valid username and leave password field empty, click on login button | Error message "Please enter your password" should be displayed |
+9 | Post-login scenario - Navigation after login | 1. Log in successfully, navigate to dashboard page | The dashboard page should be displayed with relevant content |
+10 | Logout behavior | 1. Log out from the application | User should be logged out and redirected to the login page |
+11 | Error message validation | 1. Enter invalid username and password, click on login button | Error message "Invalid username or password" should be displayed |
+12 | UI validation - Login page | 1. Check for presence of username and password fields, login button | The login page should have username and password fields, and a login button |
+
+Note: TC_ID is the test case ID, Scenario is a brief description of the test scenario, Steps are the steps to be followed to execute the test, and Expected Result is the expected outcome of the test.
+2025-12-26 12:52:54,602 | RequirementAgent | INFO | Manual test cases generated and saved to Excel
+2025-12-26 12:52:54,602 | AutomationAgent | INFO | Starting automation script generation
+2025-12-26 13:03:10,419 | Main | INFO | Manual test cases are up-to-date.
+2025-12-26 13:03:10,419 | AutomationAgent | INFO | Starting automation script generation
+2025-12-26 13:04:19,849 | Main | INFO | Manual test case Excel not found. Generating new manual test cases.
+2025-12-26 13:04:19,849 | RequirementAgent | INFO | Generating manual test cases
+2025-12-26 13:04:19,849 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:07:53,014 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:07:53,014 | RequirementAgent | INFO | Raw LLM Output:
+Here are the comprehensive manual test cases for the given application:
+
+1. | Pre-login scenario - Empty username field | 1. Open browser and navigate to https://rahulshettyacademy.com/loginpagePractise/ | The page should display an error message "Username is required" |
+2. | Pre-login scenario - Empty password field | 1. Enter a valid username, leave password field empty | The page should display an error message "Password is required" |
+3. | Pre-login scenario - Invalid username and password | 1. Enter invalid username and password | The page should display an error message "Invalid username or password" |
+4. | Positive login flow - Valid credentials | 1. Enter valid username and password, click on login button | User should be logged in successfully and redirected to the dashboard |
+5. | Field validation - Username length | 1. Enter a username with less than 3 characters, try to log in | The page should display an error message "Username should have at least 3 characters" |
+6. | Field validation - Password length | 1. Enter a password with less than 8 characters, try to log in | The page should display an error message "Password should have at least 8 characters" |
+7. | Error message - Invalid username or password (username) | 1. Enter invalid username and valid password, click on login button | The page should display an error message "Invalid username or password" |
+8. | Error message - Invalid username or password (password) | 1. Enter valid username and invalid password, click on login button | The page should display an error message "Invalid username or password" |
+9. | Navigation after login - Dashboard | 1. Log in with valid credentials, navigate to dashboard | User should be able to view the dashboard content |
+10. | Logout behavior - Successful logout | 1. Log in with valid credentials, click on logout button | User should be logged out successfully and redirected to the login page |
+11. | Error message - Invalid username or password (both) | 1. Enter invalid username and invalid password, click on login button | The page should display an error message "Invalid username or password" |
+12. | Pre-login scenario - Valid credentials but no login attempt | 1. Enter valid username and password without clicking the login button | No action should be taken |
+
+Please note that these test cases are comprehensive and cover all the scenarios as per the given scope.
+2025-12-26 13:07:53,079 | RequirementAgent | INFO | Manual test cases generated and saved to Excel
+2025-12-26 13:07:53,080 | AutomationAgent | INFO | Starting automation script generation
+2025-12-26 13:34:37,715 | Main | INFO | Manual test cases are up-to-date.
+2025-12-26 13:34:37,776 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:35:35,542 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:35:35,555 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:36:42,878 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:36:42,906 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:37:32,499 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:37:32,517 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:38:21,651 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:38:21,670 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:39:18,199 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:39:18,214 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:40:13,503 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:40:13,513 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:40:57,806 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:40:57,819 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:41:49,873 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:41:49,885 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:42:41,630 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:42:41,645 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:43:45,635 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:43:45,647 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:44:41,971 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:44:41,991 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:45:21,086 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:45:51,168 | Main | INFO | Manual test cases are up-to-date.
+2025-12-26 13:45:51,170 | AutomationAgent | INFO | Starting automation script generation
+2025-12-26 13:45:51,178 | AutomationAgent | INFO | Excel columns detected: ['TC_ID', 'Scenario', 'Steps', 'Expected Result']
+2025-12-26 13:45:51,182 | AutomationAgent | INFO | Generating automation for TC_1
+2025-12-26 13:45:51,183 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 13:46:29,857 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-26 13:46:29,867 | AutomationAgent | INFO | Automation script created: testcases/automation\test_TC_1.py
+2025-12-26 13:46:29,868 | AutomationAgent | INFO | Generating automation for TC_2
+2025-12-26 13:46:29,868 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-26 14:14:43,829 | Main | INFO | Manual test cases are up-to-date.
+2025-12-26 14:14:43,829 | AutomationAgent | INFO | Checking automation scripts status
+2025-12-26 14:14:43,841 | AutomationAgent | INFO | Automation script already exists. Skipping TC_1
+2025-12-26 14:14:43,844 | AutomationAgent | INFO | Automation script already exists. Skipping TC_2
+2025-12-26 14:14:43,844 | AutomationAgent | INFO | Automation script already exists. Skipping TC_3
+2025-12-26 14:14:43,844 | AutomationAgent | INFO | Automation script already exists. Skipping TC_4
+2025-12-26 14:14:43,844 | AutomationAgent | INFO | Automation script already exists. Skipping TC_5
+2025-12-26 14:14:43,848 | AutomationAgent | INFO | Automation script already exists. Skipping TC_6
+2025-12-26 14:14:43,848 | AutomationAgent | INFO | Automation script already exists. Skipping TC_7
+2025-12-26 14:14:43,849 | AutomationAgent | INFO | Automation script already exists. Skipping TC_8
+2025-12-26 14:14:43,849 | AutomationAgent | INFO | Automation script already exists. Skipping TC_9
+2025-12-26 14:14:43,850 | AutomationAgent | INFO | Automation script already exists. Skipping TC_10
+2025-12-26 14:14:43,850 | AutomationAgent | INFO | Automation script already exists. Skipping TC_11
+2025-12-26 14:14:43,851 | AutomationAgent | INFO | Automation script already exists. Skipping TC_12
+2025-12-26 14:23:50,221 | Main | INFO | Manual test cases are up-to-date.
+2025-12-26 14:23:50,221 | AutomationAgent | INFO | Checking automation scripts status
+2025-12-26 14:23:50,221 | AutomationAgent | INFO | Automation script already exists. Skipping TC_1
+2025-12-26 14:23:50,237 | AutomationAgent | INFO | Automation script already exists. Skipping TC_2
+2025-12-26 14:23:50,237 | AutomationAgent | INFO | Automation script already exists. Skipping TC_3
+2025-12-26 14:23:50,239 | AutomationAgent | INFO | Automation script already exists. Skipping TC_4
+2025-12-26 14:23:50,240 | AutomationAgent | INFO | Automation script already exists. Skipping TC_5
+2025-12-26 14:23:50,240 | AutomationAgent | INFO | Automation script already exists. Skipping TC_6
+2025-12-26 14:23:50,240 | AutomationAgent | INFO | Automation script already exists. Skipping TC_7
+2025-12-26 14:23:50,241 | AutomationAgent | INFO | Automation script already exists. Skipping TC_8
+2025-12-26 14:23:50,241 | AutomationAgent | INFO | Automation script already exists. Skipping TC_9
+2025-12-26 14:23:50,241 | AutomationAgent | INFO | Automation script already exists. Skipping TC_10
+2025-12-26 14:23:50,243 | AutomationAgent | INFO | Automation script already exists. Skipping TC_11
+2025-12-26 14:23:50,243 | AutomationAgent | INFO | Automation script already exists. Skipping TC_12
+2025-12-26 14:23:50,243 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-26 14:23:52,306 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-26 14:23:52,306 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- C:\dev\vscode_workstation\ai-qa-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.2', 'Platform': 'Windows-10-10.0.26100-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\dev\\java'}
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: html-4.1.1, metadata-3.1.1
+collecting ... collected 10 items / 2 errors
+
+=================================== ERRORS ====================================
+_____________ ERROR collecting testcases/automation/test_TC_3.py ______________
+ImportError while importing test module 'C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_3.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ManojKumhar\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+testcases\automation\test_TC_3.py:2: in <module>
+    from playwright.sync_api import async_playwright, sync_playwright
+E   ImportError: cannot import name 'async_playwright' from 'playwright.sync_api' (C:\dev\vscode_workstation\ai-qa-framework\.venv\Lib\site-packages\playwright\sync_api\__init__.py)
+_____________ ERROR collecting testcases/automation/test_TC_4.py ______________
+ImportError while importing test module 'C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_4.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ManojKumhar\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+testcases\automation\test_TC_4.py:2: in <module>
+    from playwright.sync_api import async_playwright, sync_playwright
+E   ImportError: cannot import name 'async_playwright' from 'playwright.sync_api' (C:\dev\vscode_workstation\ai-qa-framework\.venv\Lib\site-packages\playwright\sync_api\__init__.py)
+============================== warnings summary ===============================
+testcases\automation\test_TC_2.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_2.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+testcases\automation\test_TC_5.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_5.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+testcases\automation\test_TC_6.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_6.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+testcases\automation\test_TC_8.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_8.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR testcases/automation/test_TC_3.py
+ERROR testcases/automation/test_TC_4.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!
+======================== 4 warnings, 2 errors in 0.75s ========================
+
+2025-12-26 14:23:52,306 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2025-12-26 14:23:52,317 | ExecutionAgent | INFO | Total Tests : 0
+2025-12-26 14:23:52,317 | ExecutionAgent | INFO | PASSED      : 0
+2025-12-26 14:23:52,317 | ExecutionAgent | INFO | FAILED      : 0
+2025-12-26 14:23:52,317 | ExecutionAgent | INFO | SKIPPED     : 0
+2025-12-26 14:23:52,317 | ExecutionAgent | INFO | All tests PASSED
+2025-12-26 14:26:31,925 | Main | INFO | Manual test cases are up-to-date.
+2025-12-26 14:26:31,927 | AutomationAgent | INFO | Checking automation scripts status
+2025-12-26 14:26:31,931 | AutomationAgent | INFO | Automation script already exists. Skipping TC_1
+2025-12-26 14:26:31,931 | AutomationAgent | INFO | Automation script already exists. Skipping TC_2
+2025-12-26 14:26:31,931 | AutomationAgent | INFO | Automation script already exists. Skipping TC_3
+2025-12-26 14:26:31,939 | AutomationAgent | INFO | Automation script already exists. Skipping TC_4
+2025-12-26 14:26:31,939 | AutomationAgent | INFO | Automation script already exists. Skipping TC_5
+2025-12-26 14:26:31,940 | AutomationAgent | INFO | Automation script already exists. Skipping TC_6
+2025-12-26 14:26:31,942 | AutomationAgent | INFO | Automation script already exists. Skipping TC_7
+2025-12-26 14:26:31,943 | AutomationAgent | INFO | Automation script already exists. Skipping TC_8
+2025-12-26 14:26:31,943 | AutomationAgent | INFO | Automation script already exists. Skipping TC_9
+2025-12-26 14:26:31,944 | AutomationAgent | INFO | Automation script already exists. Skipping TC_10
+2025-12-26 14:26:31,947 | AutomationAgent | INFO | Automation script already exists. Skipping TC_11
+2025-12-26 14:26:31,949 | AutomationAgent | INFO | Automation script already exists. Skipping TC_12
+2025-12-26 14:26:31,950 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-26 14:26:33,144 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-26 14:26:33,144 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- C:\dev\vscode_workstation\ai-qa-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.2', 'Platform': 'Windows-10-10.0.26100-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\dev\\java'}
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: html-4.1.1, metadata-3.1.1
+collecting ... collected 10 items / 2 errors
+
+=================================== ERRORS ====================================
+_____________ ERROR collecting testcases/automation/test_TC_3.py ______________
+ImportError while importing test module 'C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_3.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ManojKumhar\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+testcases\automation\test_TC_3.py:2: in <module>
+    from playwright.sync_api import async_playwright, sync_playwright
+E   ImportError: cannot import name 'async_playwright' from 'playwright.sync_api' (C:\dev\vscode_workstation\ai-qa-framework\.venv\Lib\site-packages\playwright\sync_api\__init__.py)
+_____________ ERROR collecting testcases/automation/test_TC_4.py ______________
+ImportError while importing test module 'C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_4.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ManojKumhar\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+testcases\automation\test_TC_4.py:2: in <module>
+    from playwright.sync_api import async_playwright, sync_playwright
+E   ImportError: cannot import name 'async_playwright' from 'playwright.sync_api' (C:\dev\vscode_workstation\ai-qa-framework\.venv\Lib\site-packages\playwright\sync_api\__init__.py)
+============================== warnings summary ===============================
+testcases\automation\test_TC_2.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_2.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+testcases\automation\test_TC_5.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_5.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+testcases\automation\test_TC_6.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_6.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+testcases\automation\test_TC_8.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_8.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR testcases/automation/test_TC_3.py
+ERROR testcases/automation/test_TC_4.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!
+======================== 4 warnings, 2 errors in 0.39s ========================
+
+2025-12-26 14:26:33,144 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2025-12-26 14:26:33,144 | ExecutionAgent | INFO | Total Tests : 0
+2025-12-26 14:26:33,144 | ExecutionAgent | INFO | PASSED      : 0
+2025-12-26 14:26:33,144 | ExecutionAgent | INFO | FAILED      : 0
+2025-12-26 14:26:33,144 | ExecutionAgent | INFO | SKIPPED     : 0
+2025-12-26 14:26:33,144 | ExecutionAgent | INFO | All tests PASSED
+2025-12-27 09:19:19,279 | Main | INFO | Manual test cases are up-to-date.
+2025-12-27 09:19:19,282 | AutomationAgent | INFO | Checking automation scripts status
+2025-12-27 09:19:19,316 | AutomationAgent | INFO | Automation script already exists. Skipping TC_1
+2025-12-27 09:19:19,319 | AutomationAgent | INFO | Automation script already exists. Skipping TC_2
+2025-12-27 09:19:19,322 | AutomationAgent | INFO | Automation script already exists. Skipping TC_3
+2025-12-27 09:19:19,324 | AutomationAgent | INFO | Automation script already exists. Skipping TC_4
+2025-12-27 09:19:19,324 | AutomationAgent | INFO | Automation script already exists. Skipping TC_5
+2025-12-27 09:19:19,328 | AutomationAgent | INFO | Automation script already exists. Skipping TC_6
+2025-12-27 09:19:19,330 | AutomationAgent | INFO | Automation script already exists. Skipping TC_7
+2025-12-27 09:19:19,332 | AutomationAgent | INFO | Automation script already exists. Skipping TC_8
+2025-12-27 09:19:19,332 | AutomationAgent | INFO | Automation script already exists. Skipping TC_9
+2025-12-27 09:19:19,334 | AutomationAgent | INFO | Automation script already exists. Skipping TC_10
+2025-12-27 09:19:19,336 | AutomationAgent | INFO | Automation script already exists. Skipping TC_11
+2025-12-27 09:19:19,337 | AutomationAgent | INFO | Automation script already exists. Skipping TC_12
+2025-12-27 09:19:19,337 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-27 09:19:21,763 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-27 09:19:21,764 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- C:\dev\vscode_workstation\ai-qa-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.2', 'Platform': 'Windows-10-10.0.26100-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\dev\\java'}
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: html-4.1.1, metadata-3.1.1
+collecting ... collected 10 items / 2 errors
+
+=================================== ERRORS ====================================
+_____________ ERROR collecting testcases/automation/test_TC_3.py ______________
+ImportError while importing test module 'C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_3.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ManojKumhar\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+testcases\automation\test_TC_3.py:2: in <module>
+    from playwright.sync_api import async_playwright, sync_playwright
+E   ImportError: cannot import name 'async_playwright' from 'playwright.sync_api' (C:\dev\vscode_workstation\ai-qa-framework\.venv\Lib\site-packages\playwright\sync_api\__init__.py)
+_____________ ERROR collecting testcases/automation/test_TC_4.py ______________
+ImportError while importing test module 'C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_4.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ManojKumhar\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+testcases\automation\test_TC_4.py:2: in <module>
+    from playwright.sync_api import async_playwright, sync_playwright
+E   ImportError: cannot import name 'async_playwright' from 'playwright.sync_api' (C:\dev\vscode_workstation\ai-qa-framework\.venv\Lib\site-packages\playwright\sync_api\__init__.py)
+============================== warnings summary ===============================
+testcases\automation\test_TC_2.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_2.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+testcases\automation\test_TC_5.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_5.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+testcases\automation\test_TC_6.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_6.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+testcases\automation\test_TC_8.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_8.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR testcases/automation/test_TC_3.py
+ERROR testcases/automation/test_TC_4.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!
+======================== 4 warnings, 2 errors in 0.64s ========================
+
+2025-12-27 09:19:21,766 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2025-12-27 09:19:21,766 | ExecutionAgent | INFO | Total Tests : 0
+2025-12-27 09:19:21,766 | ExecutionAgent | INFO | PASSED      : 0
+2025-12-27 09:19:21,766 | ExecutionAgent | INFO | FAILED      : 0
+2025-12-27 09:19:21,766 | ExecutionAgent | INFO | SKIPPED     : 0
+2025-12-27 09:19:21,766 | ExecutionAgent | INFO | All tests PASSED
+2025-12-27 09:35:19,704 | Main | INFO | Manual test cases are up-to-date.
+2025-12-27 09:35:19,704 | AutomationAgent | INFO | Checking automation scripts status
+2025-12-27 09:35:19,722 | AutomationAgent | INFO | Automation script already exists. Skipping TC_1
+2025-12-27 09:35:19,724 | AutomationAgent | INFO | Automation script already exists. Skipping TC_2
+2025-12-27 09:35:19,724 | AutomationAgent | INFO | Automation script already exists. Skipping TC_3
+2025-12-27 09:35:19,724 | AutomationAgent | INFO | Automation script already exists. Skipping TC_4
+2025-12-27 09:35:19,729 | AutomationAgent | INFO | Automation script already exists. Skipping TC_5
+2025-12-27 09:35:19,730 | AutomationAgent | INFO | Automation script already exists. Skipping TC_6
+2025-12-27 09:35:19,732 | AutomationAgent | INFO | Automation script already exists. Skipping TC_7
+2025-12-27 09:35:19,732 | AutomationAgent | INFO | Automation script already exists. Skipping TC_8
+2025-12-27 09:35:19,734 | AutomationAgent | INFO | Automation script already exists. Skipping TC_9
+2025-12-27 09:35:19,734 | AutomationAgent | INFO | Automation script already exists. Skipping TC_10
+2025-12-27 09:35:19,736 | AutomationAgent | INFO | Automation script already exists. Skipping TC_11
+2025-12-27 09:35:19,739 | AutomationAgent | INFO | Automation script already exists. Skipping TC_12
+2025-12-27 09:35:19,739 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-27 09:35:21,302 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-27 09:35:21,302 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- C:\dev\vscode_workstation\ai-qa-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.2', 'Platform': 'Windows-10-10.0.26100-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\dev\\java'}
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: html-4.1.1, metadata-3.1.1
+collecting ... collected 10 items / 2 errors
+
+=================================== ERRORS ====================================
+_____________ ERROR collecting testcases/automation/test_TC_3.py ______________
+ImportError while importing test module 'C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_3.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ManojKumhar\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+testcases\automation\test_TC_3.py:2: in <module>
+    from playwright.sync_api import async_playwright, sync_playwright
+E   ImportError: cannot import name 'async_playwright' from 'playwright.sync_api' (C:\dev\vscode_workstation\ai-qa-framework\.venv\Lib\site-packages\playwright\sync_api\__init__.py)
+_____________ ERROR collecting testcases/automation/test_TC_4.py ______________
+ImportError while importing test module 'C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_4.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ManojKumhar\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+testcases\automation\test_TC_4.py:2: in <module>
+    from playwright.sync_api import async_playwright, sync_playwright
+E   ImportError: cannot import name 'async_playwright' from 'playwright.sync_api' (C:\dev\vscode_workstation\ai-qa-framework\.venv\Lib\site-packages\playwright\sync_api\__init__.py)
+============================== warnings summary ===============================
+testcases\automation\test_TC_5.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_5.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+testcases\automation\test_TC_6.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_6.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+testcases\automation\test_TC_8.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_8.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR testcases/automation/test_TC_3.py
+ERROR testcases/automation/test_TC_4.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!
+======================== 3 warnings, 2 errors in 0.54s ========================
+
+2025-12-27 09:35:21,314 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2025-12-27 09:35:21,314 | ExecutionAgent | INFO | Total Tests : 0
+2025-12-27 09:35:21,314 | ExecutionAgent | INFO | PASSED      : 0
+2025-12-27 09:35:21,314 | ExecutionAgent | INFO | FAILED      : 0
+2025-12-27 09:35:21,314 | ExecutionAgent | INFO | SKIPPED     : 0
+2025-12-27 09:35:21,314 | ExecutionAgent | INFO | All tests PASSED
+2025-12-27 09:42:10,967 | Main | INFO | Manual test cases are up-to-date.
+2025-12-27 09:42:10,967 | AutomationAgent | INFO | Starting automation script generation
+2025-12-27 09:42:10,981 | AutomationAgent | INFO | Skipping existing script: TC_1
+2025-12-27 09:42:10,981 | AutomationAgent | INFO | Skipping existing script: TC_2
+2025-12-27 09:42:10,981 | AutomationAgent | INFO | Skipping existing script: TC_3
+2025-12-27 09:42:10,981 | AutomationAgent | INFO | Skipping existing script: TC_4
+2025-12-27 09:42:10,981 | AutomationAgent | INFO | Skipping existing script: TC_5
+2025-12-27 09:42:10,981 | AutomationAgent | INFO | Skipping existing script: TC_6
+2025-12-27 09:42:10,988 | AutomationAgent | INFO | Skipping existing script: TC_7
+2025-12-27 09:42:10,988 | AutomationAgent | INFO | Skipping existing script: TC_8
+2025-12-27 09:42:10,988 | AutomationAgent | INFO | Skipping existing script: TC_9
+2025-12-27 09:42:10,988 | AutomationAgent | INFO | Skipping existing script: TC_10
+2025-12-27 09:42:10,988 | AutomationAgent | INFO | Skipping existing script: TC_11
+2025-12-27 09:42:10,988 | AutomationAgent | INFO | Skipping existing script: TC_12
+2025-12-27 09:42:10,988 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-27 09:42:12,369 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-27 09:42:12,369 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- C:\dev\vscode_workstation\ai-qa-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.2', 'Platform': 'Windows-10-10.0.26100-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\dev\\java'}
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: html-4.1.1, metadata-3.1.1
+collecting ... collected 10 items / 2 errors
+
+=================================== ERRORS ====================================
+_____________ ERROR collecting testcases/automation/test_TC_3.py ______________
+ImportError while importing test module 'C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_3.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ManojKumhar\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+testcases\automation\test_TC_3.py:2: in <module>
+    from playwright.sync_api import async_playwright, sync_playwright
+E   ImportError: cannot import name 'async_playwright' from 'playwright.sync_api' (C:\dev\vscode_workstation\ai-qa-framework\.venv\Lib\site-packages\playwright\sync_api\__init__.py)
+_____________ ERROR collecting testcases/automation/test_TC_4.py ______________
+ImportError while importing test module 'C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_4.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\ManojKumhar\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+testcases\automation\test_TC_4.py:2: in <module>
+    from playwright.sync_api import async_playwright, sync_playwright
+E   ImportError: cannot import name 'async_playwright' from 'playwright.sync_api' (C:\dev\vscode_workstation\ai-qa-framework\.venv\Lib\site-packages\playwright\sync_api\__init__.py)
+============================== warnings summary ===============================
+testcases\automation\test_TC_5.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_5.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+testcases\automation\test_TC_6.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_6.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+testcases\automation\test_TC_8.py:4
+  C:\dev\vscode_workstation\ai-qa-framework\testcases\automation\test_TC_8.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR testcases/automation/test_TC_3.py
+ERROR testcases/automation/test_TC_4.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!
+======================== 3 warnings, 2 errors in 0.45s ========================
+
+2025-12-27 09:42:12,371 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2025-12-27 09:42:12,371 | ExecutionAgent | INFO | Total Tests : 0
+2025-12-27 09:42:12,371 | ExecutionAgent | INFO | PASSED      : 0
+2025-12-27 09:42:12,371 | ExecutionAgent | INFO | FAILED      : 0
+2025-12-27 09:42:12,371 | ExecutionAgent | INFO | SKIPPED     : 0
+2025-12-27 09:42:12,371 | ExecutionAgent | INFO | All tests PASSED
+2025-12-27 09:49:37,940 | Main | INFO | Manual test cases are up-to-date.
+2025-12-27 09:49:37,940 | AutomationAgent | INFO | Starting automation script generation
+2025-12-27 09:49:37,956 | AutomationAgent | INFO | Skipping existing script: TC_1
+2025-12-27 09:49:37,958 | AutomationAgent | INFO | Skipping existing script: TC_2
+2025-12-27 09:49:37,958 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 09:51:18,654 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 09:51:18,657 | AutomationAgent | INFO | Automation script created: testcases/automation\test_TC_3.py
+2025-12-27 09:51:18,657 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 09:52:31,797 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 09:52:31,833 | AutomationAgent | ERROR | Invalid code for TC_4
+2025-12-27 09:52:31,834 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 09:53:55,099 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 09:53:55,104 | AutomationAgent | INFO | Automation script created: testcases/automation\test_TC_5.py
+2025-12-27 09:53:55,104 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 09:55:14,099 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 09:55:14,099 | AutomationAgent | ERROR | Invalid code for TC_6
+2025-12-27 09:55:14,102 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 09:56:43,548 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 09:56:43,556 | AutomationAgent | INFO | Automation script created: testcases/automation\test_TC_7.py
+2025-12-27 09:56:43,558 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 09:58:15,597 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 09:58:15,615 | AutomationAgent | INFO | Automation script created: testcases/automation\test_TC_8.py
+2025-12-27 09:58:15,615 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 10:00:00,979 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 10:00:00,983 | AutomationAgent | ERROR | Invalid code for TC_9
+2025-12-27 10:00:00,983 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 10:02:02,881 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 10:02:02,885 | AutomationAgent | ERROR | Invalid code for TC_10
+2025-12-27 10:02:02,885 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 10:03:23,356 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 10:03:23,359 | AutomationAgent | INFO | Automation script created: testcases/automation\test_TC_11.py
+2025-12-27 10:03:23,359 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 10:04:37,552 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 10:04:37,555 | AutomationAgent | INFO | Automation script created: testcases/automation\test_TC_12.py
+2025-12-27 10:04:37,561 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-27 10:06:40,796 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-27 10:06:40,796 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- C:\dev\vscode_workstation\ai-qa-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.2', 'Platform': 'Windows-10-10.0.26100-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\dev\\java'}
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: html-4.1.1, metadata-3.1.1
+collecting ... collected 8 items
+
+testcases/automation/test_TC_1.py::test_pre_login PASSED                 [ 12%]
+testcases/automation/test_TC_11.py::test_invalid_credentials FAILED      [ 25%]
+testcases/automation/test_TC_12.py::test_pre_login_valid_credentials FAILED [ 37%]
+testcases/automation/test_TC_2.py::test_pre_login_empty_password PASSED  [ 50%]
+testcases/automation/test_TC_3.py::test_invalid_login FAILED             [ 62%]
+testcases/automation/test_TC_5.py::test_username_length FAILED           [ 75%]
+testcases/automation/test_TC_7.py::test_invalid_username FAILED          [ 87%]
+testcases/automation/test_TC_8.py::test_invalid_password FAILED          [100%]
+
+================================== FAILURES ===================================
+__________________________ test_invalid_credentials ___________________________
+
+    def test_invalid_credentials():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("#username", "invalid_username")
+            page.fill("#password", "invalid_password")
+            page.click("#login")
+    
+>           error_message = page.query_selector(".error-message").text_content()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'NoneType' object has no attribute 'text_content'
+
+testcases\automation\test_TC_11.py:14: AttributeError
+______________________ test_pre_login_valid_credentials _______________________
+
+    def test_pre_login_valid_credentials():
+        # Create a new browser instance
+>       pw = sync_playwright().chromium.launch(headless=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'PlaywrightContextManager' object has no attribute 'chromium'
+
+testcases\automation\test_TC_12.py:5: AttributeError
+_____________________________ test_invalid_login ______________________________
+
+    def test_invalid_login():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("[name='username']", "invalid_username")
+            page.fill("[name='password']", "invalid_password")
+            page.click("[type='submit']")
+    
+>           assert page.query_selector("div.error-message").text() == "Invalid username or password"
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'NoneType' object has no attribute 'text'
+
+testcases\automation\test_TC_3.py:14: AttributeError
+____________________________ test_username_length _____________________________
+
+    def test_username_length():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+>           page.fill("username", "ab")  # Enter a username with less than 3 characters
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+testcases\automation\test_TC_5.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:10173: in fill
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:893: in fill
+    return await self._main_frame.fill(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:607: in fill
+    await self._fill(**locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_frame.py:619: in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x000001D236DA6B10>
+cb = <function Channel.send.<locals>.<lambda> at 0x000001D236D353A0>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.fill: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("username")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_invalid_username ____________________________
+
+    def test_invalid_username():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            # Navigate to the login page
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+    
+            # Enter invalid username and valid password
+            page.fill("#username", "invalid_username")
+            page.fill("#password", "valid_password")
+>           page.locator("text='LOGIN'").click()
+
+testcases\automation\test_TC_7.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:15637: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x000001D235D55E10>
+cb = <function Channel.send.<locals>.<lambda> at 0x000001D236D85C60>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("text='LOGIN'")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_invalid_password ____________________________
+
+    def test_invalid_password():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+>           page.fill("username", "rahul")
+
+testcases\automation\test_TC_8.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:10173: in fill
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:893: in fill
+    return await self._main_frame.fill(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:607: in fill
+    await self._fill(**locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_frame.py:619: in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x000001D23701B110>
+cb = <function Channel.send.<locals>.<lambda> at 0x000001D23695FF60>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.fill: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("username")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+=========================== short test summary info ===========================
+FAILED testcases/automation/test_TC_11.py::test_invalid_credentials - Attribu...
+FAILED testcases/automation/test_TC_12.py::test_pre_login_valid_credentials
+FAILED testcases/automation/test_TC_3.py::test_invalid_login - AttributeError...
+FAILED testcases/automation/test_TC_5.py::test_username_length - playwright._...
+FAILED testcases/automation/test_TC_7.py::test_invalid_username - playwright....
+FAILED testcases/automation/test_TC_8.py::test_invalid_password - playwright....
+=================== 6 failed, 2 passed in 121.70s (0:02:01) ===================
+
+2025-12-27 10:06:40,812 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2025-12-27 10:06:40,814 | ExecutionAgent | INFO | Total Tests : 8
+2025-12-27 10:06:40,814 | ExecutionAgent | INFO | PASSED      : 2
+2025-12-27 10:06:40,814 | ExecutionAgent | INFO | FAILED      : 6
+2025-12-27 10:06:40,814 | ExecutionAgent | INFO | SKIPPED     : 0
+2025-12-27 10:06:40,816 | ExecutionAgent | ERROR | Some tests FAILED
+2025-12-27 10:07:49,900 | Main | INFO | Manual test cases are up-to-date.
+2025-12-27 10:07:49,900 | AutomationAgent | INFO | Starting automation script generation
+2025-12-27 10:07:49,927 | AutomationAgent | INFO | Script already exists for TC_1, skipping
+2025-12-27 10:07:49,927 | AutomationAgent | INFO | Script already exists for TC_2, skipping
+2025-12-27 10:07:49,929 | AutomationAgent | INFO | Script already exists for TC_3, skipping
+2025-12-27 10:07:49,929 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 10:08:52,977 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 10:08:52,981 | AutomationAgent | INFO | Created automation script: testcases/automation\test_TC_4.py
+2025-12-27 10:08:52,981 | AutomationAgent | INFO | Script already exists for TC_5, skipping
+2025-12-27 10:08:52,981 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 10:09:44,116 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 10:09:44,118 | AutomationAgent | INFO | Created automation script: testcases/automation\test_TC_6.py
+2025-12-27 10:09:44,123 | AutomationAgent | INFO | Script already exists for TC_7, skipping
+2025-12-27 10:09:44,123 | AutomationAgent | INFO | Script already exists for TC_8, skipping
+2025-12-27 10:09:44,123 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 10:10:37,030 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 10:10:37,068 | AutomationAgent | INFO | Created automation script: testcases/automation\test_TC_9.py
+2025-12-27 10:10:37,070 | OllamaClient | INFO | Ollama call attempt 1
+2025-12-27 10:11:38,682 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2025-12-27 10:11:38,684 | AutomationAgent | INFO | Created automation script: testcases/automation\test_TC_10.py
+2025-12-27 10:11:38,684 | AutomationAgent | INFO | Script already exists for TC_11, skipping
+2025-12-27 10:11:38,684 | AutomationAgent | INFO | Script already exists for TC_12, skipping
+2025-12-27 10:11:38,684 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-27 10:14:15,103 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-27 10:14:15,103 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- C:\dev\vscode_workstation\ai-qa-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.2', 'Platform': 'Windows-10-10.0.26100-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\dev\\java'}
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: html-4.1.1, metadata-3.1.1
+collecting ... collected 12 items
+
+testcases/automation/test_TC_1.py::test_pre_login PASSED                 [  8%]
+testcases/automation/test_TC_10.py::test_logout ERROR                    [ 16%]
+testcases/automation/test_TC_11.py::test_invalid_credentials FAILED      [ 25%]
+testcases/automation/test_TC_12.py::test_pre_login_valid_credentials FAILED [ 33%]
+testcases/automation/test_TC_2.py::test_pre_login_empty_password PASSED  [ 41%]
+testcases/automation/test_TC_3.py::test_invalid_login FAILED             [ 50%]
+testcases/automation/test_TC_4.py::test_positive_login_flow[rahulshettyacademy-learningisfun] FAILED [ 58%]
+testcases/automation/test_TC_5.py::test_username_length FAILED           [ 66%]
+testcases/automation/test_TC_6.py::test_password_length FAILED           [ 75%]
+testcases/automation/test_TC_7.py::test_invalid_username FAILED          [ 83%]
+testcases/automation/test_TC_8.py::test_invalid_password FAILED          [ 91%]
+testcases/automation/test_TC_9.py::test_login_dashboard FAILED           [100%]
+
+=================================== ERRORS ====================================
+________________________ ERROR at setup of test_logout ________________________
+
+    @pytest.fixture
+    def browser():
+>       return sync_playwright().chromium.launch(headless=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'PlaywrightContextManager' object has no attribute 'chromium'
+
+testcases\automation\test_TC_10.py:6: AttributeError
+================================== FAILURES ===================================
+__________________________ test_invalid_credentials ___________________________
+
+    def test_invalid_credentials():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("#username", "invalid_username")
+            page.fill("#password", "invalid_password")
+            page.click("#login")
+    
+>           error_message = page.query_selector(".error-message").text_content()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'NoneType' object has no attribute 'text_content'
+
+testcases\automation\test_TC_11.py:14: AttributeError
+______________________ test_pre_login_valid_credentials _______________________
+
+    def test_pre_login_valid_credentials():
+        # Create a new browser instance
+>       pw = sync_playwright().chromium.launch(headless=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'PlaywrightContextManager' object has no attribute 'chromium'
+
+testcases\automation\test_TC_12.py:5: AttributeError
+_____________________________ test_invalid_login ______________________________
+
+    def test_invalid_login():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("[name='username']", "invalid_username")
+            page.fill("[name='password']", "invalid_password")
+            page.click("[type='submit']")
+    
+>           assert page.query_selector("div.error-message").text() == "Invalid username or password"
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'NoneType' object has no attribute 'text'
+
+testcases\automation\test_TC_3.py:14: AttributeError
+_________ test_positive_login_flow[rahulshettyacademy-learningisfun] __________
+
+username = 'rahulshettyacademy', password = 'learningisfun'
+
+    @pytest.mark.parametrize("username,password", [("rahulshettyacademy", "learningisfun")])
+    def test_positive_login_flow(username, password):
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("#username", username)
+            page.fill("#password", password)
+>           page.locator("text=signIn").click()
+
+testcases\automation\test_TC_4.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:15637: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x000002013907CA90>
+cb = <function Channel.send.<locals>.<lambda> at 0x0000020138CF8540>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("text=signIn")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_username_length _____________________________
+
+    def test_username_length():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+>           page.fill("username", "ab")  # Enter a username with less than 3 characters
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+testcases\automation\test_TC_5.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:10173: in fill
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:893: in fill
+    return await self._main_frame.fill(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:607: in fill
+    await self._fill(**locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_frame.py:619: in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x00000201392B3ED0>
+cb = <function Channel.send.<locals>.<lambda> at 0x000002013907A480>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.fill: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("username")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_password_length _____________________________
+
+    def test_password_length():
+>       browser = pws.chromium.launch()
+                  ^^^^^^^^^^^^
+E       AttributeError: module 'playwright.sync_api' has no attribute 'chromium'
+
+testcases\automation\test_TC_6.py:4: AttributeError
+____________________________ test_invalid_username ____________________________
+
+    def test_invalid_username():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            # Navigate to the login page
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+    
+            # Enter invalid username and valid password
+            page.fill("#username", "invalid_username")
+            page.fill("#password", "valid_password")
+>           page.locator("text='LOGIN'").click()
+
+testcases\automation\test_TC_7.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:15637: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x00000201392F0E50>
+cb = <function Channel.send.<locals>.<lambda> at 0x0000020138CF8C20>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("text='LOGIN'")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_invalid_password ____________________________
+
+    def test_invalid_password():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+>           page.fill("username", "rahul")
+
+testcases\automation\test_TC_8.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:10173: in fill
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:893: in fill
+    return await self._main_frame.fill(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:607: in fill
+    await self._fill(**locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_frame.py:619: in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x0000020139137B10>
+cb = <function Channel.send.<locals>.<lambda> at 0x000002013811DE40>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.fill: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("username")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_login_dashboard _____________________________
+
+    def test_login_dashboard():
+>       browser = pws.chromium.launch()
+                  ^^^^^^^^^^^^
+E       AttributeError: module 'playwright.sync_api' has no attribute 'chromium'
+
+testcases\automation\test_TC_9.py:4: AttributeError
+=========================== short test summary info ===========================
+FAILED testcases/automation/test_TC_11.py::test_invalid_credentials - Attribu...
+FAILED testcases/automation/test_TC_12.py::test_pre_login_valid_credentials
+FAILED testcases/automation/test_TC_3.py::test_invalid_login - AttributeError...
+FAILED testcases/automation/test_TC_4.py::test_positive_login_flow[rahulshettyacademy-learningisfun]
+FAILED testcases/automation/test_TC_5.py::test_username_length - playwright._...
+FAILED testcases/automation/test_TC_6.py::test_password_length - AttributeErr...
+FAILED testcases/automation/test_TC_7.py::test_invalid_username - playwright....
+FAILED testcases/automation/test_TC_8.py::test_invalid_password - playwright....
+FAILED testcases/automation/test_TC_9.py::test_login_dashboard - AttributeErr...
+ERROR testcases/automation/test_TC_10.py::test_logout - AttributeError: 'Play...
+============== 9 failed, 2 passed, 1 error in 155.18s (0:02:35) ===============
+
+2025-12-27 10:14:15,107 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2025-12-27 10:14:15,109 | ExecutionAgent | INFO | Total Tests : 11
+2025-12-27 10:14:15,109 | ExecutionAgent | INFO | PASSED      : 2
+2025-12-27 10:14:15,111 | ExecutionAgent | INFO | FAILED      : 9
+2025-12-27 10:14:15,111 | ExecutionAgent | INFO | SKIPPED     : 0
+2025-12-27 10:14:15,113 | ExecutionAgent | ERROR | Some tests FAILED
+2025-12-27 10:15:26,743 | Main | INFO | Manual test cases are up-to-date.
+2025-12-27 10:15:26,743 | AutomationAgent | INFO | Starting automation script generation
+2025-12-27 10:15:26,762 | AutomationAgent | INFO | Script already exists for TC_1, skipping
+2025-12-27 10:15:26,765 | AutomationAgent | INFO | Script already exists for TC_2, skipping
+2025-12-27 10:15:26,766 | AutomationAgent | INFO | Script already exists for TC_3, skipping
+2025-12-27 10:15:26,767 | AutomationAgent | INFO | Script already exists for TC_4, skipping
+2025-12-27 10:15:26,767 | AutomationAgent | INFO | Script already exists for TC_5, skipping
+2025-12-27 10:15:26,767 | AutomationAgent | INFO | Script already exists for TC_6, skipping
+2025-12-27 10:15:26,767 | AutomationAgent | INFO | Script already exists for TC_7, skipping
+2025-12-27 10:15:26,767 | AutomationAgent | INFO | Script already exists for TC_8, skipping
+2025-12-27 10:15:26,767 | AutomationAgent | INFO | Script already exists for TC_9, skipping
+2025-12-27 10:15:26,767 | AutomationAgent | INFO | Script already exists for TC_10, skipping
+2025-12-27 10:15:26,767 | AutomationAgent | INFO | Script already exists for TC_11, skipping
+2025-12-27 10:15:26,775 | AutomationAgent | INFO | Script already exists for TC_12, skipping
+2025-12-27 10:15:26,776 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-27 10:18:02,148 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-27 10:18:02,148 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- C:\dev\vscode_workstation\ai-qa-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.2', 'Platform': 'Windows-10-10.0.26100-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\dev\\java'}
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: html-4.1.1, metadata-3.1.1
+collecting ... collected 12 items
+
+testcases/automation/test_TC_1.py::test_pre_login PASSED                 [  8%]
+testcases/automation/test_TC_10.py::test_logout ERROR                    [ 16%]
+testcases/automation/test_TC_11.py::test_invalid_credentials FAILED      [ 25%]
+testcases/automation/test_TC_12.py::test_pre_login_valid_credentials FAILED [ 33%]
+testcases/automation/test_TC_2.py::test_pre_login_empty_password PASSED  [ 41%]
+testcases/automation/test_TC_3.py::test_invalid_login FAILED             [ 50%]
+testcases/automation/test_TC_4.py::test_positive_login_flow[rahulshettyacademy-learningisfun] FAILED [ 58%]
+testcases/automation/test_TC_5.py::test_username_length FAILED           [ 66%]
+testcases/automation/test_TC_6.py::test_password_length FAILED           [ 75%]
+testcases/automation/test_TC_7.py::test_invalid_username FAILED          [ 83%]
+testcases/automation/test_TC_8.py::test_invalid_password FAILED          [ 91%]
+testcases/automation/test_TC_9.py::test_login_dashboard FAILED           [100%]
+
+=================================== ERRORS ====================================
+________________________ ERROR at setup of test_logout ________________________
+
+    @pytest.fixture
+    def browser():
+>       return sync_playwright().chromium.launch(headless=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'PlaywrightContextManager' object has no attribute 'chromium'
+
+testcases\automation\test_TC_10.py:6: AttributeError
+================================== FAILURES ===================================
+__________________________ test_invalid_credentials ___________________________
+
+    def test_invalid_credentials():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("#username", "invalid_username")
+            page.fill("#password", "invalid_password")
+            page.click("#login")
+    
+>           error_message = page.query_selector(".error-message").text_content()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'NoneType' object has no attribute 'text_content'
+
+testcases\automation\test_TC_11.py:14: AttributeError
+______________________ test_pre_login_valid_credentials _______________________
+
+    def test_pre_login_valid_credentials():
+        # Create a new browser instance
+>       pw = sync_playwright().chromium.launch(headless=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'PlaywrightContextManager' object has no attribute 'chromium'
+
+testcases\automation\test_TC_12.py:5: AttributeError
+_____________________________ test_invalid_login ______________________________
+
+    def test_invalid_login():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("[name='username']", "invalid_username")
+            page.fill("[name='password']", "invalid_password")
+            page.click("[type='submit']")
+    
+>           assert page.query_selector("div.error-message").text() == "Invalid username or password"
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'NoneType' object has no attribute 'text'
+
+testcases\automation\test_TC_3.py:14: AttributeError
+_________ test_positive_login_flow[rahulshettyacademy-learningisfun] __________
+
+username = 'rahulshettyacademy', password = 'learningisfun'
+
+    @pytest.mark.parametrize("username,password", [("rahulshettyacademy", "learningisfun")])
+    def test_positive_login_flow(username, password):
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("#username", username)
+            page.fill("#password", password)
+>           page.locator("text=signIn").click()
+
+testcases\automation\test_TC_4.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:15637: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x000001D9C441B450>
+cb = <function Channel.send.<locals>.<lambda> at 0x000001D9C445C180>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("text=signIn")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_username_length _____________________________
+
+    def test_username_length():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+>           page.fill("username", "ab")  # Enter a username with less than 3 characters
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+testcases\automation\test_TC_5.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:10173: in fill
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:893: in fill
+    return await self._main_frame.fill(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:607: in fill
+    await self._fill(**locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_frame.py:619: in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x000001D9C3453990>
+cb = <function Channel.send.<locals>.<lambda> at 0x000001D9C44BFCE0>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.fill: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("username")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_password_length _____________________________
+
+    def test_password_length():
+>       browser = pws.chromium.launch()
+                  ^^^^^^^^^^^^
+E       AttributeError: module 'playwright.sync_api' has no attribute 'chromium'
+
+testcases\automation\test_TC_6.py:4: AttributeError
+____________________________ test_invalid_username ____________________________
+
+    def test_invalid_username():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            # Navigate to the login page
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+    
+            # Enter invalid username and valid password
+            page.fill("#username", "invalid_username")
+            page.fill("#password", "valid_password")
+>           page.locator("text='LOGIN'").click()
+
+testcases\automation\test_TC_7.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:15637: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x000001D9C40CFF10>
+cb = <function Channel.send.<locals>.<lambda> at 0x000001D9C434BCE0>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("text='LOGIN'")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_invalid_password ____________________________
+
+    def test_invalid_password():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+>           page.fill("username", "rahul")
+
+testcases\automation\test_TC_8.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:10173: in fill
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:893: in fill
+    return await self._main_frame.fill(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:607: in fill
+    await self._fill(**locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_frame.py:619: in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x000001D9C4395B10>
+cb = <function Channel.send.<locals>.<lambda> at 0x000001D9C43D5580>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.fill: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("username")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_login_dashboard _____________________________
+
+    def test_login_dashboard():
+>       browser = pws.chromium.launch()
+                  ^^^^^^^^^^^^
+E       AttributeError: module 'playwright.sync_api' has no attribute 'chromium'
+
+testcases\automation\test_TC_9.py:4: AttributeError
+=========================== short test summary info ===========================
+FAILED testcases/automation/test_TC_11.py::test_invalid_credentials - Attribu...
+FAILED testcases/automation/test_TC_12.py::test_pre_login_valid_credentials
+FAILED testcases/automation/test_TC_3.py::test_invalid_login - AttributeError...
+FAILED testcases/automation/test_TC_4.py::test_positive_login_flow[rahulshettyacademy-learningisfun]
+FAILED testcases/automation/test_TC_5.py::test_username_length - playwright._...
+FAILED testcases/automation/test_TC_6.py::test_password_length - AttributeErr...
+FAILED testcases/automation/test_TC_7.py::test_invalid_username - playwright....
+FAILED testcases/automation/test_TC_8.py::test_invalid_password - playwright....
+FAILED testcases/automation/test_TC_9.py::test_login_dashboard - AttributeErr...
+ERROR testcases/automation/test_TC_10.py::test_logout - AttributeError: 'Play...
+============== 9 failed, 2 passed, 1 error in 154.35s (0:02:34) ===============
+
+2025-12-27 10:18:02,160 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2025-12-27 10:18:02,160 | ExecutionAgent | INFO | Total Tests : 11
+2025-12-27 10:18:02,160 | ExecutionAgent | INFO | PASSED      : 2
+2025-12-27 10:18:02,162 | ExecutionAgent | INFO | FAILED      : 9
+2025-12-27 10:18:02,162 | ExecutionAgent | INFO | SKIPPED     : 0
+2025-12-27 10:18:02,164 | ExecutionAgent | ERROR | Some tests FAILED
+2025-12-27 10:32:03,802 | Main | INFO | Manual test cases are up-to-date.
+2025-12-27 10:32:03,802 | AutomationAgent | INFO | Starting automation script generation
+2025-12-27 10:32:03,816 | AutomationAgent | INFO | Script already exists for TC_1, skipping
+2025-12-27 10:32:03,818 | AutomationAgent | INFO | Script already exists for TC_2, skipping
+2025-12-27 10:32:03,820 | AutomationAgent | INFO | Script already exists for TC_3, skipping
+2025-12-27 10:32:03,820 | AutomationAgent | INFO | Script already exists for TC_4, skipping
+2025-12-27 10:32:03,822 | AutomationAgent | INFO | Script already exists for TC_5, skipping
+2025-12-27 10:32:03,822 | AutomationAgent | INFO | Script already exists for TC_6, skipping
+2025-12-27 10:32:03,822 | AutomationAgent | INFO | Script already exists for TC_7, skipping
+2025-12-27 10:32:03,826 | AutomationAgent | INFO | Script already exists for TC_8, skipping
+2025-12-27 10:32:03,828 | AutomationAgent | INFO | Script already exists for TC_9, skipping
+2025-12-27 10:32:03,828 | AutomationAgent | INFO | Script already exists for TC_10, skipping
+2025-12-27 10:32:03,830 | AutomationAgent | INFO | Script already exists for TC_11, skipping
+2025-12-27 10:32:03,832 | AutomationAgent | INFO | Script already exists for TC_12, skipping
+2025-12-27 10:32:03,832 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-27 10:34:40,475 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-27 10:34:40,481 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- C:\dev\vscode_workstation\ai-qa-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.2', 'Platform': 'Windows-10-10.0.26100-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\dev\\java'}
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: html-4.1.1, metadata-3.1.1
+collecting ... collected 12 items
+
+testcases/automation/test_TC_1.py::test_pre_login PASSED                 [  8%]
+testcases/automation/test_TC_10.py::test_logout ERROR                    [ 16%]
+testcases/automation/test_TC_11.py::test_invalid_credentials FAILED      [ 25%]
+testcases/automation/test_TC_12.py::test_pre_login_valid_credentials FAILED [ 33%]
+testcases/automation/test_TC_2.py::test_pre_login_empty_password PASSED  [ 41%]
+testcases/automation/test_TC_3.py::test_invalid_login FAILED             [ 50%]
+testcases/automation/test_TC_4.py::test_positive_login_flow[rahulshettyacademy-learningisfun] FAILED [ 58%]
+testcases/automation/test_TC_5.py::test_username_length FAILED           [ 66%]
+testcases/automation/test_TC_6.py::test_password_length FAILED           [ 75%]
+testcases/automation/test_TC_7.py::test_invalid_username FAILED          [ 83%]
+testcases/automation/test_TC_8.py::test_invalid_password FAILED          [ 91%]
+testcases/automation/test_TC_9.py::test_login_dashboard FAILED           [100%]
+
+=================================== ERRORS ====================================
+________________________ ERROR at setup of test_logout ________________________
+
+    @pytest.fixture
+    def browser():
+>       return sync_playwright().chromium.launch(headless=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'PlaywrightContextManager' object has no attribute 'chromium'
+
+testcases\automation\test_TC_10.py:6: AttributeError
+================================== FAILURES ===================================
+__________________________ test_invalid_credentials ___________________________
+
+    def test_invalid_credentials():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("#username", "invalid_username")
+            page.fill("#password", "invalid_password")
+            page.click("#login")
+    
+>           error_message = page.query_selector(".error-message").text_content()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'NoneType' object has no attribute 'text_content'
+
+testcases\automation\test_TC_11.py:14: AttributeError
+______________________ test_pre_login_valid_credentials _______________________
+
+    def test_pre_login_valid_credentials():
+        # Create a new browser instance
+>       pw = sync_playwright().chromium.launch(headless=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'PlaywrightContextManager' object has no attribute 'chromium'
+
+testcases\automation\test_TC_12.py:5: AttributeError
+_____________________________ test_invalid_login ______________________________
+
+    def test_invalid_login():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("[name='username']", "invalid_username")
+            page.fill("[name='password']", "invalid_password")
+            page.click("[type='submit']")
+    
+>           assert page.query_selector("div.error-message").text() == "Invalid username or password"
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'NoneType' object has no attribute 'text'
+
+testcases\automation\test_TC_3.py:14: AttributeError
+_________ test_positive_login_flow[rahulshettyacademy-learningisfun] __________
+
+username = 'rahulshettyacademy', password = 'learningisfun'
+
+    @pytest.mark.parametrize("username,password", [("rahulshettyacademy", "learningisfun")])
+    def test_positive_login_flow(username, password):
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("#username", username)
+            page.fill("#password", password)
+>           page.locator("text=signIn").click()
+
+testcases\automation\test_TC_4.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:15637: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x0000022245BD8DD0>
+cb = <function Channel.send.<locals>.<lambda> at 0x0000022245BF0A40>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("text=signIn")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_username_length _____________________________
+
+    def test_username_length():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+>           page.fill("username", "ab")  # Enter a username with less than 3 characters
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+testcases\automation\test_TC_5.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:10173: in fill
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:893: in fill
+    return await self._main_frame.fill(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:607: in fill
+    await self._fill(**locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_frame.py:619: in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x0000022245825110>
+cb = <function Channel.send.<locals>.<lambda> at 0x0000022245BA6160>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.fill: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("username")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_password_length _____________________________
+
+    def test_password_length():
+>       browser = pws.chromium.launch()
+                  ^^^^^^^^^^^^
+E       AttributeError: module 'playwright.sync_api' has no attribute 'chromium'
+
+testcases\automation\test_TC_6.py:4: AttributeError
+____________________________ test_invalid_username ____________________________
+
+    def test_invalid_username():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            # Navigate to the login page
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+    
+            # Enter invalid username and valid password
+            page.fill("#username", "invalid_username")
+            page.fill("#password", "valid_password")
+>           page.locator("text='LOGIN'").click()
+
+testcases\automation\test_TC_7.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:15637: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x00000222471EB910>
+cb = <function Channel.send.<locals>.<lambda> at 0x0000022245A5FEC0>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("text='LOGIN'")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_invalid_password ____________________________
+
+    def test_invalid_password():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+>           page.fill("username", "rahul")
+
+testcases\automation\test_TC_8.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:10173: in fill
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:893: in fill
+    return await self._main_frame.fill(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:607: in fill
+    await self._fill(**locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_frame.py:619: in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x00000222458CB590>
+cb = <function Channel.send.<locals>.<lambda> at 0x0000022245811BC0>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.fill: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("username")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_login_dashboard _____________________________
+
+    def test_login_dashboard():
+>       browser = pws.chromium.launch()
+                  ^^^^^^^^^^^^
+E       AttributeError: module 'playwright.sync_api' has no attribute 'chromium'
+
+testcases\automation\test_TC_9.py:4: AttributeError
+=========================== short test summary info ===========================
+FAILED testcases/automation/test_TC_11.py::test_invalid_credentials - Attribu...
+FAILED testcases/automation/test_TC_12.py::test_pre_login_valid_credentials
+FAILED testcases/automation/test_TC_3.py::test_invalid_login - AttributeError...
+FAILED testcases/automation/test_TC_4.py::test_positive_login_flow[rahulshettyacademy-learningisfun]
+FAILED testcases/automation/test_TC_5.py::test_username_length - playwright._...
+FAILED testcases/automation/test_TC_6.py::test_password_length - AttributeErr...
+FAILED testcases/automation/test_TC_7.py::test_invalid_username - playwright....
+FAILED testcases/automation/test_TC_8.py::test_invalid_password - playwright....
+FAILED testcases/automation/test_TC_9.py::test_login_dashboard - AttributeErr...
+ERROR testcases/automation/test_TC_10.py::test_logout - AttributeError: 'Play...
+============== 9 failed, 2 passed, 1 error in 155.58s (0:02:35) ===============
+
+2025-12-27 10:34:40,488 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2025-12-27 10:34:40,489 | ExecutionAgent | INFO | Total Tests : 14
+2025-12-27 10:34:40,489 | ExecutionAgent | INFO | PASSED      : 2
+2025-12-27 10:34:40,489 | ExecutionAgent | INFO | FAILED      : 9
+2025-12-27 10:34:40,489 | ExecutionAgent | INFO | SKIPPED     : 0
+2025-12-27 10:34:40,494 | ExecutionAgent | INFO | ERRORS     : 3
+2025-12-27 10:34:40,494 | ExecutionAgent | ERROR | Some tests FAILED
+2025-12-27 10:42:28,650 | Main | INFO | Manual test cases are up-to-date.
+2025-12-27 10:42:28,658 | AutomationAgent | INFO | Starting automation script generation
+2025-12-27 10:42:28,700 | AutomationAgent | INFO | Script already exists for TC_1, skipping
+2025-12-27 10:42:28,700 | AutomationAgent | INFO | Script already exists for TC_2, skipping
+2025-12-27 10:42:28,700 | AutomationAgent | INFO | Script already exists for TC_3, skipping
+2025-12-27 10:42:28,709 | AutomationAgent | INFO | Script already exists for TC_4, skipping
+2025-12-27 10:42:28,709 | AutomationAgent | INFO | Script already exists for TC_5, skipping
+2025-12-27 10:42:28,709 | AutomationAgent | INFO | Script already exists for TC_6, skipping
+2025-12-27 10:42:28,709 | AutomationAgent | INFO | Script already exists for TC_7, skipping
+2025-12-27 10:42:28,716 | AutomationAgent | INFO | Script already exists for TC_8, skipping
+2025-12-27 10:42:28,716 | AutomationAgent | INFO | Script already exists for TC_9, skipping
+2025-12-27 10:42:28,716 | AutomationAgent | INFO | Script already exists for TC_10, skipping
+2025-12-27 10:42:28,716 | AutomationAgent | INFO | Script already exists for TC_11, skipping
+2025-12-27 10:42:28,727 | AutomationAgent | INFO | Script already exists for TC_12, skipping
+2025-12-27 10:42:28,727 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-27 10:42:30,404 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-27 10:42:30,404 | ExecutionAgent | INFO | 
+2025-12-27 10:42:30,410 | ExecutionAgent | ERROR | ERROR: usage: pytest [options] [file_or_dir] [file_or_dir] [...]
+pytest: error: unrecognized arguments: --json-report --json-report-file=test_report.json
+  inifile: C:\dev\vscode_workstation\ai-qa-framework\pyproject.toml
+  rootdir: C:\dev\vscode_workstation\ai-qa-framework
+
+
+2025-12-27 10:42:30,410 | ExecutionAgent | ERROR | Pytest report not generated
+2025-12-27 10:45:29,752 | Main | INFO | Manual test cases are up-to-date.
+2025-12-27 10:45:29,752 | AutomationAgent | INFO | Starting automation script generation
+2025-12-27 10:45:29,774 | AutomationAgent | INFO | Script already exists for TC_1, skipping
+2025-12-27 10:45:29,774 | AutomationAgent | INFO | Script already exists for TC_2, skipping
+2025-12-27 10:45:29,774 | AutomationAgent | INFO | Script already exists for TC_3, skipping
+2025-12-27 10:45:29,774 | AutomationAgent | INFO | Script already exists for TC_4, skipping
+2025-12-27 10:45:29,774 | AutomationAgent | INFO | Script already exists for TC_5, skipping
+2025-12-27 10:45:29,774 | AutomationAgent | INFO | Script already exists for TC_6, skipping
+2025-12-27 10:45:29,782 | AutomationAgent | INFO | Script already exists for TC_7, skipping
+2025-12-27 10:45:29,785 | AutomationAgent | INFO | Script already exists for TC_8, skipping
+2025-12-27 10:45:29,786 | AutomationAgent | INFO | Script already exists for TC_9, skipping
+2025-12-27 10:45:29,786 | AutomationAgent | INFO | Script already exists for TC_10, skipping
+2025-12-27 10:45:29,788 | AutomationAgent | INFO | Script already exists for TC_11, skipping
+2025-12-27 10:45:29,789 | AutomationAgent | INFO | Script already exists for TC_12, skipping
+2025-12-27 10:45:29,790 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-27 10:48:12,387 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-27 10:48:12,387 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- C:\dev\vscode_workstation\ai-qa-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.2', 'Platform': 'Windows-10-10.0.26100-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'json-report': '1.5.0', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\dev\\java'}
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: html-4.1.1, json-report-1.5.0, metadata-3.1.1
+collecting ... collected 12 items
+
+testcases/automation/test_TC_1.py::test_pre_login PASSED                 [  8%]
+testcases/automation/test_TC_10.py::test_logout ERROR                    [ 16%]
+testcases/automation/test_TC_11.py::test_invalid_credentials FAILED      [ 25%]
+testcases/automation/test_TC_12.py::test_pre_login_valid_credentials FAILED [ 33%]
+testcases/automation/test_TC_2.py::test_pre_login_empty_password PASSED  [ 41%]
+testcases/automation/test_TC_3.py::test_invalid_login FAILED             [ 50%]
+testcases/automation/test_TC_4.py::test_positive_login_flow[rahulshettyacademy-learningisfun] FAILED [ 58%]
+testcases/automation/test_TC_5.py::test_username_length FAILED           [ 66%]
+testcases/automation/test_TC_6.py::test_password_length FAILED           [ 75%]
+testcases/automation/test_TC_7.py::test_invalid_username FAILED          [ 83%]
+testcases/automation/test_TC_8.py::test_invalid_password FAILED          [ 91%]
+testcases/automation/test_TC_9.py::test_login_dashboard FAILED           [100%]
+
+=================================== ERRORS ====================================
+________________________ ERROR at setup of test_logout ________________________
+
+    @pytest.fixture
+    def browser():
+>       return sync_playwright().chromium.launch(headless=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'PlaywrightContextManager' object has no attribute 'chromium'
+
+testcases\automation\test_TC_10.py:6: AttributeError
+================================== FAILURES ===================================
+__________________________ test_invalid_credentials ___________________________
+
+    def test_invalid_credentials():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("#username", "invalid_username")
+            page.fill("#password", "invalid_password")
+            page.click("#login")
+    
+>           error_message = page.query_selector(".error-message").text_content()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'NoneType' object has no attribute 'text_content'
+
+testcases\automation\test_TC_11.py:14: AttributeError
+______________________ test_pre_login_valid_credentials _______________________
+
+    def test_pre_login_valid_credentials():
+        # Create a new browser instance
+>       pw = sync_playwright().chromium.launch(headless=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'PlaywrightContextManager' object has no attribute 'chromium'
+
+testcases\automation\test_TC_12.py:5: AttributeError
+_____________________________ test_invalid_login ______________________________
+
+    def test_invalid_login():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("[name='username']", "invalid_username")
+            page.fill("[name='password']", "invalid_password")
+            page.click("[type='submit']")
+    
+>           assert page.query_selector("div.error-message").text() == "Invalid username or password"
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           AttributeError: 'NoneType' object has no attribute 'text'
+
+testcases\automation\test_TC_3.py:14: AttributeError
+_________ test_positive_login_flow[rahulshettyacademy-learningisfun] __________
+
+username = 'rahulshettyacademy', password = 'learningisfun'
+
+    @pytest.mark.parametrize("username,password", [("rahulshettyacademy", "learningisfun")])
+    def test_positive_login_flow(username, password):
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+            page.fill("#username", username)
+            page.fill("#password", password)
+>           page.locator("text=signIn").click()
+
+testcases\automation\test_TC_4.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:15637: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x0000021A342C61D0>
+cb = <function Channel.send.<locals>.<lambda> at 0x0000021A342BBD80>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("text=signIn")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_username_length _____________________________
+
+    def test_username_length():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+>           page.fill("username", "ab")  # Enter a username with less than 3 characters
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+testcases\automation\test_TC_5.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:10173: in fill
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:893: in fill
+    return await self._main_frame.fill(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:607: in fill
+    await self._fill(**locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_frame.py:619: in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x0000021A342A7690>
+cb = <function Channel.send.<locals>.<lambda> at 0x0000021A341D6840>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.fill: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("username")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_password_length _____________________________
+
+    def test_password_length():
+>       browser = pws.chromium.launch()
+                  ^^^^^^^^^^^^
+E       AttributeError: module 'playwright.sync_api' has no attribute 'chromium'
+
+testcases\automation\test_TC_6.py:4: AttributeError
+____________________________ test_invalid_username ____________________________
+
+    def test_invalid_username():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            # Navigate to the login page
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+    
+            # Enter invalid username and valid password
+            page.fill("#username", "invalid_username")
+            page.fill("#password", "valid_password")
+>           page.locator("text='LOGIN'").click()
+
+testcases\automation\test_TC_7.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:15637: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x0000021A3435D690>
+cb = <function Channel.send.<locals>.<lambda> at 0x0000021A34308540>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("text='LOGIN'")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_invalid_password ____________________________
+
+    def test_invalid_password():
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            context = browser.new_context()
+            page = context.new_page()
+    
+            page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+>           page.fill("username", "rahul")
+
+testcases\automation\test_TC_8.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:10173: in fill
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:893: in fill
+    return await self._main_frame.fill(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:607: in fill
+    await self._fill(**locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_frame.py:619: in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x0000021A34226E90>
+cb = <function Channel.send.<locals>.<lambda> at 0x0000021A34299F80>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Page.fill: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for locator("username")
+
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+____________________________ test_login_dashboard _____________________________
+
+    def test_login_dashboard():
+>       browser = pws.chromium.launch()
+                  ^^^^^^^^^^^^
+E       AttributeError: module 'playwright.sync_api' has no attribute 'chromium'
+
+testcases\automation\test_TC_9.py:4: AttributeError
+--------------------------------- JSON report ---------------------------------
+report saved to: test_report.json
+=========================== short test summary info ===========================
+FAILED testcases/automation/test_TC_11.py::test_invalid_credentials - Attribu...
+FAILED testcases/automation/test_TC_12.py::test_pre_login_valid_credentials
+FAILED testcases/automation/test_TC_3.py::test_invalid_login - AttributeError...
+FAILED testcases/automation/test_TC_4.py::test_positive_login_flow[rahulshettyacademy-learningisfun]
+FAILED testcases/automation/test_TC_5.py::test_username_length - playwright._...
+FAILED testcases/automation/test_TC_6.py::test_password_length - AttributeErr...
+FAILED testcases/automation/test_TC_7.py::test_invalid_username - playwright....
+FAILED testcases/automation/test_TC_8.py::test_invalid_password - playwright....
+FAILED testcases/automation/test_TC_9.py::test_login_dashboard - AttributeErr...
+ERROR testcases/automation/test_TC_10.py::test_logout - AttributeError: 'Play...
+============== 9 failed, 2 passed, 1 error in 161.32s (0:02:41) ===============
+
+2025-12-27 10:48:12,395 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2025-12-27 10:48:12,395 | ExecutionAgent | INFO | Total Tests : 12
+2025-12-27 10:48:12,395 | ExecutionAgent | INFO | PASSED      : 2
+2025-12-27 10:48:12,395 | ExecutionAgent | INFO | FAILED      : 9
+2025-12-27 10:48:12,395 | ExecutionAgent | INFO | SKIPPED     : 0
+2025-12-27 10:48:12,403 | ExecutionAgent | INFO | ERRORS      : 1
+2025-12-27 10:48:12,405 | ExecutionAgent | ERROR | Some tests FAILED or ERRORED
+2025-12-27 11:29:32,071 | Main | INFO | Manual test cases are up-to-date.
+2025-12-27 11:29:32,092 | AutomationAgent | INFO | Starting automation script generation
+2025-12-27 11:29:32,117 | AutomationAgent | INFO | Script already exists for TC_1, skipping
+2025-12-27 11:29:32,117 | AutomationAgent | INFO | Script already exists for TC_2, skipping
+2025-12-27 11:29:32,120 | AutomationAgent | INFO | Script already exists for TC_3, skipping
+2025-12-27 11:29:32,122 | AutomationAgent | INFO | Script already exists for TC_4, skipping
+2025-12-27 11:29:32,122 | AutomationAgent | INFO | Script already exists for TC_5, skipping
+2025-12-27 11:29:32,122 | AutomationAgent | INFO | Script already exists for TC_6, skipping
+2025-12-27 11:29:32,122 | AutomationAgent | INFO | Script already exists for TC_7, skipping
+2025-12-27 11:29:32,122 | AutomationAgent | INFO | Script already exists for TC_8, skipping
+2025-12-27 11:29:32,128 | AutomationAgent | INFO | Script already exists for TC_9, skipping
+2025-12-27 11:29:32,128 | AutomationAgent | INFO | Script already exists for TC_10, skipping
+2025-12-27 11:29:32,132 | AutomationAgent | INFO | Script already exists for TC_11, skipping
+2025-12-27 11:29:32,134 | AutomationAgent | INFO | Script already exists for TC_12, skipping
+2025-12-27 11:29:32,134 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-27 11:30:28,670 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-27 11:30:28,670 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- C:\dev\vscode_workstation\ai-qa-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.2', 'Platform': 'Windows-10-10.0.26100-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'json-report': '1.5.0', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\dev\\java'}
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: html-4.1.1, json-report-1.5.0, metadata-3.1.1
+collecting ... collected 12 items
+
+testcases/automation/test_TC_1.py::test_pre_login PASSED                 [  8%]
+testcases/automation/test_TC_10.py::test_logout SKIPPED (Logout butt...) [ 16%]
+testcases/automation/test_TC_11.py::test_invalid_credentials PASSED      [ 25%]
+testcases/automation/test_TC_12.py::test_pre_login_valid_credentials PASSED [ 33%]
+testcases/automation/test_TC_2.py::test_pre_login_empty_password PASSED  [ 41%]
+testcases/automation/test_TC_3.py::test_invalid_login PASSED             [ 50%]
+testcases/automation/test_TC_4.py::test_positive_login_flow[rahulshetty-learning] PASSED [ 58%]
+testcases/automation/test_TC_5.py::test_username_length PASSED           [ 66%]
+testcases/automation/test_TC_6.py::test_password_length PASSED           [ 75%]
+testcases/automation/test_TC_7.py::test_invalid_username PASSED          [ 83%]
+testcases/automation/test_TC_8.py::test_invalid_password PASSED          [ 91%]
+testcases/automation/test_TC_9.py::test_login_dashboard PASSED           [100%]
+
+--------------------------------- JSON report ---------------------------------
+report saved to: test_report.json
+======================= 11 passed, 1 skipped in 55.52s ========================
+
+2025-12-27 11:30:28,672 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2025-12-27 11:30:28,672 | ExecutionAgent | INFO | Total Tests : 12
+2025-12-27 11:30:28,672 | ExecutionAgent | INFO | PASSED      : 11
+2025-12-27 11:30:28,672 | ExecutionAgent | INFO | FAILED      : 0
+2025-12-27 11:30:28,672 | ExecutionAgent | INFO | SKIPPED     : 1
+2025-12-27 11:30:28,672 | ExecutionAgent | INFO | ERRORS      : 0
+2025-12-27 11:30:28,672 | ExecutionAgent | INFO | All tests PASSED
+2025-12-27 11:47:04,322 | Main | INFO | Manual test cases are up-to-date.
+2025-12-27 11:47:04,322 | AutomationAgent | INFO | Starting automation script generation
+2025-12-27 11:47:04,352 | AutomationAgent | INFO | Script already exists for TC_1, skipping
+2025-12-27 11:47:04,355 | AutomationAgent | INFO | Script already exists for TC_2, skipping
+2025-12-27 11:47:04,355 | AutomationAgent | INFO | Script already exists for TC_3, skipping
+2025-12-27 11:47:04,357 | AutomationAgent | INFO | Script already exists for TC_4, skipping
+2025-12-27 11:47:04,359 | AutomationAgent | INFO | Script already exists for TC_5, skipping
+2025-12-27 11:47:04,361 | AutomationAgent | INFO | Script already exists for TC_6, skipping
+2025-12-27 11:47:04,363 | AutomationAgent | INFO | Script already exists for TC_7, skipping
+2025-12-27 11:47:04,365 | AutomationAgent | INFO | Script already exists for TC_8, skipping
+2025-12-27 11:47:04,365 | AutomationAgent | INFO | Script already exists for TC_9, skipping
+2025-12-27 11:47:04,365 | AutomationAgent | INFO | Script already exists for TC_10, skipping
+2025-12-27 11:47:04,365 | AutomationAgent | INFO | Script already exists for TC_11, skipping
+2025-12-27 11:47:04,371 | AutomationAgent | INFO | Script already exists for TC_12, skipping
+2025-12-27 11:47:04,371 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-27 11:48:01,832 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-27 11:48:01,832 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- C:\dev\vscode_workstation\ai-qa-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.2', 'Platform': 'Windows-10-10.0.26100-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'json-report': '1.5.0', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\dev\\java'}
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: html-4.1.1, json-report-1.5.0, metadata-3.1.1
+collecting ... collected 12 items
+
+testcases/automation/test_TC_1.py::test_pre_login PASSED                 [  8%]
+testcases/automation/test_TC_10.py::test_logout SKIPPED (Logout butt...) [ 16%]
+testcases/automation/test_TC_11.py::test_invalid_credentials PASSED      [ 25%]
+testcases/automation/test_TC_12.py::test_pre_login_valid_credentials PASSED [ 33%]
+testcases/automation/test_TC_2.py::test_pre_login_empty_password PASSED  [ 41%]
+testcases/automation/test_TC_3.py::test_invalid_login PASSED             [ 50%]
+testcases/automation/test_TC_4.py::test_positive_login_flow[rahulshetty-learning] PASSED [ 58%]
+testcases/automation/test_TC_5.py::test_username_length PASSED           [ 66%]
+testcases/automation/test_TC_6.py::test_password_length PASSED           [ 75%]
+testcases/automation/test_TC_7.py::test_invalid_username PASSED          [ 83%]
+testcases/automation/test_TC_8.py::test_invalid_password PASSED          [ 91%]
+testcases/automation/test_TC_9.py::test_login_dashboard PASSED           [100%]
+
+--------------------------------- JSON report ---------------------------------
+report saved to: test_report.json
+======================= 11 passed, 1 skipped in 56.40s ========================
+
+2025-12-27 11:48:01,832 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2025-12-27 11:48:01,832 | ExecutionAgent | INFO | Total Tests : 12
+2025-12-27 11:48:01,832 | ExecutionAgent | INFO | PASSED      : 11
+2025-12-27 11:48:01,832 | ExecutionAgent | INFO | FAILED      : 0
+2025-12-27 11:48:01,841 | ExecutionAgent | INFO | SKIPPED     : 1
+2025-12-27 11:48:01,841 | ExecutionAgent | INFO | ERRORS      : 0
+2025-12-27 11:48:01,841 | ExecutionAgent | INFO | All tests PASSED
+2025-12-31 09:52:19,367 | Main | INFO | Manual test cases are up-to-date.
+2025-12-31 09:52:19,368 | AutomationAgent | INFO | Starting automation script generation
+2025-12-31 09:52:19,405 | AutomationAgent | INFO | Script already exists for TC_1, skipping
+2025-12-31 09:52:19,405 | AutomationAgent | INFO | Script already exists for TC_2, skipping
+2025-12-31 09:52:19,405 | AutomationAgent | INFO | Script already exists for TC_3, skipping
+2025-12-31 09:52:19,405 | AutomationAgent | INFO | Script already exists for TC_4, skipping
+2025-12-31 09:52:19,411 | AutomationAgent | INFO | Script already exists for TC_5, skipping
+2025-12-31 09:52:19,413 | AutomationAgent | INFO | Script already exists for TC_6, skipping
+2025-12-31 09:52:19,414 | AutomationAgent | INFO | Script already exists for TC_7, skipping
+2025-12-31 09:52:19,416 | AutomationAgent | INFO | Script already exists for TC_8, skipping
+2025-12-31 09:52:19,417 | AutomationAgent | INFO | Script already exists for TC_9, skipping
+2025-12-31 09:52:19,418 | AutomationAgent | INFO | Script already exists for TC_10, skipping
+2025-12-31 09:52:19,420 | AutomationAgent | INFO | Script already exists for TC_11, skipping
+2025-12-31 09:52:19,421 | AutomationAgent | INFO | Script already exists for TC_12, skipping
+2025-12-31 09:52:19,421 | ExecutionAgent | INFO | Starting automation test execution
+2025-12-31 09:53:27,953 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2025-12-31 09:53:27,954 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- C:\dev\vscode_workstation\ai-qa-framework\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.2', 'Platform': 'Windows-10-10.0.26100-SP0', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'json-report': '1.5.0', 'metadata': '3.1.1'}, 'JAVA_HOME': 'C:\\dev\\java'}
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: html-4.1.1, json-report-1.5.0, metadata-3.1.1
+collecting ... collected 12 items
+
+testcases/automation/test_TC_1.py::test_pre_login PASSED                 [  8%]
+testcases/automation/test_TC_10.py::test_logout SKIPPED (Logout butt...) [ 16%]
+testcases/automation/test_TC_11.py::test_invalid_credentials PASSED      [ 25%]
+testcases/automation/test_TC_12.py::test_pre_login_valid_credentials PASSED [ 33%]
+testcases/automation/test_TC_2.py::test_pre_login_empty_password PASSED  [ 41%]
+testcases/automation/test_TC_3.py::test_invalid_login PASSED             [ 50%]
+testcases/automation/test_TC_4.py::test_positive_login_flow[rahulshetty-learning] PASSED [ 58%]
+testcases/automation/test_TC_5.py::test_username_length PASSED           [ 66%]
+testcases/automation/test_TC_6.py::test_password_length PASSED           [ 75%]
+testcases/automation/test_TC_7.py::test_invalid_username PASSED          [ 83%]
+testcases/automation/test_TC_8.py::test_invalid_password PASSED          [ 91%]
+testcases/automation/test_TC_9.py::test_login_dashboard PASSED           [100%]
+
+--------------------------------- JSON report ---------------------------------
+report saved to: test_report.json
+================== 11 passed, 1 skipped in 66.40s (0:01:06) ===================
+
+2025-12-31 09:53:27,960 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2025-12-31 09:53:27,962 | ExecutionAgent | INFO | Total Tests : 12
+2025-12-31 09:53:27,962 | ExecutionAgent | INFO | PASSED      : 11
+2025-12-31 09:53:27,964 | ExecutionAgent | INFO | FAILED      : 0
+2025-12-31 09:53:27,965 | ExecutionAgent | INFO | SKIPPED     : 1
+2025-12-31 09:53:27,966 | ExecutionAgent | INFO | ERRORS      : 0
+2025-12-31 09:53:27,966 | ExecutionAgent | INFO | All tests PASSED
