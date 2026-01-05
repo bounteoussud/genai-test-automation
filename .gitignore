@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Pytest / Playwright
+.pytest_cache/
+reports/
+test-results/
+failed_tests.txt
+
+# Excel temp files
+~$*.xlsx
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db

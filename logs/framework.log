@@ -28326,3 +28326,227 @@ FAILED testcases/automation/test_TC_6.py::test_TC_6 - playwright._impl._error...
 2026-01-05 11:36:03,996 | ExecutionAgent | INFO | SKIPPED            : 0
 2026-01-05 11:36:03,996 | ExecutionAgent | ERROR | Some tests FAILED
 2026-01-05 11:36:03,999 | ExecutionAgent | INFO | Automation test execution completed
+2026-01-05 12:50:29,408 | Main | INFO | Manual test cases not found. Generating...
+2026-01-05 12:50:29,408 | RequirementAgent | INFO | Generating manual test cases
+2026-01-05 12:50:29,408 | OllamaClient | INFO | Ollama call attempt 1
+2026-01-05 12:52:38,270 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2026-01-05 12:52:38,272 | RequirementAgent | INFO | Cleaning LLM output before saving to Excel
+2026-01-05 12:52:38,333 | RequirementAgent | INFO | Manual test cases generated and saved to Excel
+2026-01-05 12:52:38,333 | AutomationAgent | INFO | Starting automation script generation
+2026-01-05 12:52:38,347 | AutomationAgent | INFO | conftest.py generated successfully
+2026-01-05 12:52:38,439 | AutomationAgent | INFO | Generating TC_1 (Attempt 1)
+2026-01-05 12:52:38,440 | OllamaClient | INFO | Ollama call attempt 1
+2026-01-05 12:53:50,384 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2026-01-05 12:53:50,394 | AutomationAgent | INFO | Automation script created for TC_1
+2026-01-05 12:53:50,395 | AutomationAgent | INFO | Generating TC_2 (Attempt 1)
+2026-01-05 12:53:50,395 | OllamaClient | INFO | Ollama call attempt 1
+2026-01-05 12:54:59,300 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2026-01-05 12:54:59,307 | AutomationAgent | INFO | Automation script created for TC_2
+2026-01-05 12:54:59,309 | AutomationAgent | INFO | Generating TC_3 (Attempt 1)
+2026-01-05 12:54:59,311 | OllamaClient | INFO | Ollama call attempt 1
+2026-01-05 12:56:05,665 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2026-01-05 12:56:05,674 | AutomationAgent | INFO | Automation script created for TC_3
+2026-01-05 12:56:05,675 | AutomationAgent | INFO | Generating TC_4 (Attempt 1)
+2026-01-05 12:56:05,676 | OllamaClient | INFO | Ollama call attempt 1
+2026-01-05 12:57:34,811 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2026-01-05 12:57:34,814 | AutomationAgent | INFO | Automation script created for TC_4
+2026-01-05 12:57:34,814 | AutomationAgent | INFO | Generating TC_5 (Attempt 1)
+2026-01-05 12:57:34,814 | OllamaClient | INFO | Ollama call attempt 1
+2026-01-05 12:58:36,819 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2026-01-05 12:58:36,826 | AutomationAgent | INFO | Automation script created for TC_5
+2026-01-05 12:58:36,829 | AutomationAgent | INFO | Generating TC_6 (Attempt 1)
+2026-01-05 12:58:36,829 | OllamaClient | INFO | Ollama call attempt 1
+2026-01-05 12:59:44,510 | OllamaClient | INFO | Ollama raw response keys: ['model', 'created_at', 'response', 'done', 'done_reason', 'context', 'total_duration', 'load_duration', 'prompt_eval_count', 'prompt_eval_duration', 'eval_count', 'eval_duration']
+2026-01-05 12:59:44,519 | AutomationAgent | INFO | Automation script created for TC_6
+2026-01-05 12:59:44,519 | AutomationAgent | INFO | Automation script generation completed
+2026-01-05 12:59:44,526 | ExecutionAgent | INFO | Starting automation test execution
+2026-01-05 12:59:49,042 | ExecutionAgent | INFO | ========== TEST COLLECTION ==========
+2026-01-05 12:59:49,042 | ExecutionAgent | INFO | Total Tests Collected : 6
+2026-01-05 13:03:43,195 | ExecutionAgent | INFO | ========== PYTEST OUTPUT ==========
+2026-01-05 13:03:43,196 | ExecutionAgent | INFO | ============================= test session starts =============================
+platform win32 -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: C:\dev\vscode_workstation\ai-qa-framework
+configfile: pyproject.toml
+plugins: base-url-2.1.0, html-4.1.1, json-report-1.5.0, metadata-3.1.1, playwright-0.7.2, rerunfailures-16.1
+collected 6 items
+
+testcases\automation\test_TC_1.py F                                      [ 16%]
+testcases\automation\test_TC_2.py F                                      [ 33%]
+testcases\automation\test_TC_3.py F                                      [ 50%]
+testcases\automation\test_TC_4.py F                                      [ 66%]
+testcases\automation\test_TC_5.py F                                      [ 83%]
+testcases\automation\test_TC_6.py F                                      [100%]
+
+================================== FAILURES ===================================
+__________________________________ test_TC_1 __________________________________
+testcases\automation\test_TC_1.py:5: in test_TC_1
+    page.click("text=Login")
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:9958: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:854: in click
+    return await self._main_frame._click(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Page.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("text=Login")
+E       - locator resolved to 3 elements. Proceeding with the first one: <a href="https://www.opencart.com/index.php?route=account/login">Login</a>
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       56 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms
+__________________________________ test_TC_2 __________________________________
+testcases\automation\test_TC_2.py:5: in test_TC_2
+    page.click("[data-test='login-button']")
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:9958: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:854: in click
+    return await self._main_frame._click(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Page.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("[data-test='login-button']")
+__________________________________ test_TC_3 __________________________________
+testcases\automation\test_TC_3.py:5: in test_TC_3
+    page.click('text="Login"')
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:9958: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:854: in click
+    return await self._main_frame._click(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Page.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("text=\"Login\"")
+E       - locator resolved to 3 elements. Proceeding with the first one: <a href="https://www.opencart.com/index.php?route=account/login">Login</a>
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       57 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms
+__________________________________ test_TC_4 __________________________________
+testcases\automation\test_TC_4.py:5: in test_TC_4
+    page.click("#login > div > a")
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:9958: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:854: in click
+    return await self._main_frame._click(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Page.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("#login > div > a")
+__________________________________ test_TC_5 __________________________________
+testcases\automation\test_TC_5.py:5: in test_TC_5
+    page.click("text=Login")
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:9958: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:854: in click
+    return await self._main_frame._click(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Page.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("text=Login")
+E       - locator resolved to 3 elements. Proceeding with the first one: <a href="https://www.opencart.com/index.php?route=account/login">Login</a>
+E     - attempting click action
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E       - waiting 20ms
+E       2 × waiting for element to be visible, enabled and stable
+E         - element is not visible
+E       - retrying click action
+E         - waiting 100ms
+E       56 × waiting for element to be visible, enabled and stable
+E          - element is not visible
+E        - retrying click action
+E          - waiting 500ms
+__________________________________ test_TC_6 __________________________________
+testcases\automation\test_TC_6.py:5: in test_TC_6
+    page.click("input[name='remember_me']")
+.venv\Lib\site-packages\playwright\sync_api\_generated.py:9958: in click
+    self._sync(
+.venv\Lib\site-packages\playwright\_impl\_page.py:854: in click
+    return await self._main_frame._click(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+.venv\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+.venv\Lib\site-packages\playwright\_impl\_connection.py:559: in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E   playwright._impl._errors.TimeoutError: Page.click: Timeout 30000ms exceeded.
+E   Call log:
+E     - waiting for locator("input[name='remember_me']")
+--------------------------------- JSON report ---------------------------------
+report saved to: test_report.json
+- Generated html report: file:///C:/dev/vscode_workstation/ai-qa-framework/reports/report.html -
+=========================== short test summary info ===========================
+FAILED testcases/automation/test_TC_1.py::test_TC_1 - playwright._impl._error...
+FAILED testcases/automation/test_TC_2.py::test_TC_2 - playwright._impl._error...
+FAILED testcases/automation/test_TC_3.py::test_TC_3 - playwright._impl._error...
+FAILED testcases/automation/test_TC_4.py::test_TC_4 - playwright._impl._error...
+FAILED testcases/automation/test_TC_5.py::test_TC_5 - playwright._impl._error...
+FAILED testcases/automation/test_TC_6.py::test_TC_6 - playwright._impl._error...
+======================== 6 failed in 231.11s (0:03:51) ========================
+
+2026-01-05 13:03:43,203 | ExecutionAgent | ERROR | ========== FAILED TEST DETAILS ==========
+2026-01-05 13:03:43,205 | ExecutionAgent | ERROR | testcases/automation/test_TC_1.py::test_TC_1
+2026-01-05 13:03:43,205 | ExecutionAgent | ERROR | testcases/automation/test_TC_2.py::test_TC_2
+2026-01-05 13:03:43,206 | ExecutionAgent | ERROR | testcases/automation/test_TC_3.py::test_TC_3
+2026-01-05 13:03:43,207 | ExecutionAgent | ERROR | testcases/automation/test_TC_4.py::test_TC_4
+2026-01-05 13:03:43,208 | ExecutionAgent | ERROR | testcases/automation/test_TC_5.py::test_TC_5
+2026-01-05 13:03:43,208 | ExecutionAgent | ERROR | testcases/automation/test_TC_6.py::test_TC_6
+2026-01-05 13:03:43,214 | ExecutionAgent | INFO | Failed tests saved to failed_tests.txt
+2026-01-05 13:03:43,215 | ExecutionAgent | INFO | ========== EXECUTION SUMMARY ==========
+2026-01-05 13:03:43,216 | ExecutionAgent | INFO | Total Tests        : 6
+2026-01-05 13:03:43,217 | ExecutionAgent | INFO | PASSED             : 0
+2026-01-05 13:03:43,218 | ExecutionAgent | INFO | FAILED             : 6
+2026-01-05 13:03:43,218 | ExecutionAgent | INFO | ERRORS             : 0
+2026-01-05 13:03:43,219 | ExecutionAgent | INFO | SKIPPED            : 0
+2026-01-05 13:03:43,221 | ExecutionAgent | ERROR | Some tests FAILED
+2026-01-05 13:03:43,221 | ExecutionAgent | INFO | Automation test execution completed
