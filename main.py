@@ -9,7 +9,7 @@ from utils.logger import get_logger
 logger = get_logger("Main")
 
 user_requirement = """
-Login functionality for Rahul Shetty Academy website.
+Login functionality for Facebook website.
 Validate pre-login, login, and post-login scenarios.
 """
 

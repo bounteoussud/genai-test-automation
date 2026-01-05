@@ -15,10 +15,24 @@ dependencies = [
     "pytest (>=9.0.2,<10.0.0)",
     "playwright (>=1.57.0,<2.0.0)",
     "pytest-html (>=4.1.1,<5.0.0)",
-    "pytest-json-report (>=1.5.0,<2.0.0)"
+    "pytest-json-report (>=1.5.0,<2.0.0)",
+    "selenium (>=4.39.0,<5.0.0)",
+    "webdriver-manager (>=4.0.2,<5.0.0)",
+    "pytest-playwright (>=0.7.2,<0.8.0)",
+    "pytest-rerunfailures (>=16.1,<17.0)"
 ]
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "-q --json-report --json-report-file=test_report.json --html=reports/report.html --self-contained-html"
+testpaths = ["testcases/automation"]
+python_files = "test_*.py"
+minversion = "7.0"
+markers = [
+    "smoke: Quick smoke tests for CI",
+    "slow: Marks tests as slow",
+]

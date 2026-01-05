@@ -1,0 +1,6 @@
+testcases/automation/test_TC_1.py::test_TC_1
+testcases/automation/test_TC_2.py::test_TC_2
+testcases/automation/test_TC_3.py::test_TC_3
+testcases/automation/test_TC_4.py::test_TC_4
+testcases/automation/test_TC_5.py::test_TC_5
+testcases/automation/test_TC_6.py::test_TC_6
